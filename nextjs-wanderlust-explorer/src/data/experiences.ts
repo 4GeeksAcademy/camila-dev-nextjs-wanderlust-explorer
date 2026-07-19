@@ -9,7 +9,7 @@ export const experiences: Experience[] = [
     destination: "Cusco, Peru",
     price: 43,
     rating: 4.1,
-    imageUrl: "https://picsum.photos/600/400?random=1",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -20,7 +20,7 @@ export const experiences: Experience[] = [
     destination: "Kyoto, Japan",
     price: 46,
     rating: 4.2,
-    imageUrl: "https://picsum.photos/600/400?random=2",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -31,7 +31,7 @@ export const experiences: Experience[] = [
     destination: "Paris, France",
     price: 49,
     rating: 4.3,
-    imageUrl: "https://picsum.photos/600/400?random=3",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -42,7 +42,7 @@ export const experiences: Experience[] = [
     destination: "Reykjavik, Iceland",
     price: 52,
     rating: 4.4,
-    imageUrl: "https://picsum.photos/600/400?random=4",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -53,7 +53,7 @@ export const experiences: Experience[] = [
     destination: "Queenstown, New Zealand",
     price: 55,
     rating: 4.5,
-    imageUrl: "https://picsum.photos/600/400?random=5",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -64,7 +64,7 @@ export const experiences: Experience[] = [
     destination: "Marrakech, Morocco",
     price: 58,
     rating: 4.6,
-    imageUrl: "https://picsum.photos/600/400?random=6",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -75,7 +75,7 @@ export const experiences: Experience[] = [
     destination: "Rome, Italy",
     price: 61,
     rating: 4.7,
-    imageUrl: "https://picsum.photos/600/400?random=7",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -86,7 +86,7 @@ export const experiences: Experience[] = [
     destination: "Barcelona, Spain",
     price: 64,
     rating: 4.8,
-    imageUrl: "https://picsum.photos/600/400?random=8",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -97,7 +97,7 @@ export const experiences: Experience[] = [
     destination: "Cape Town, South Africa",
     price: 67,
     rating: 4.9,
-    imageUrl: "https://picsum.photos/600/400?random=9",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -108,7 +108,7 @@ export const experiences: Experience[] = [
     destination: "Banff, Canada",
     price: 70,
     rating: 4.0,
-    imageUrl: "https://picsum.photos/600/400?random=10",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -119,7 +119,7 @@ export const experiences: Experience[] = [
     destination: "Cusco, Peru",
     price: 73,
     rating: 4.1,
-    imageUrl: "https://picsum.photos/600/400?random=11",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -130,7 +130,7 @@ export const experiences: Experience[] = [
     destination: "Kyoto, Japan",
     price: 76,
     rating: 4.2,
-    imageUrl: "https://picsum.photos/600/400?random=12",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -141,7 +141,7 @@ export const experiences: Experience[] = [
     destination: "Paris, France",
     price: 79,
     rating: 4.3,
-    imageUrl: "https://picsum.photos/600/400?random=13",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -152,7 +152,7 @@ export const experiences: Experience[] = [
     destination: "Reykjavik, Iceland",
     price: 82,
     rating: 4.4,
-    imageUrl: "https://picsum.photos/600/400?random=14",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -163,7 +163,7 @@ export const experiences: Experience[] = [
     destination: "Queenstown, New Zealand",
     price: 85,
     rating: 4.5,
-    imageUrl: "https://picsum.photos/600/400?random=15",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -174,7 +174,7 @@ export const experiences: Experience[] = [
     destination: "Marrakech, Morocco",
     price: 88,
     rating: 4.6,
-    imageUrl: "https://picsum.photos/600/400?random=16",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -185,7 +185,7 @@ export const experiences: Experience[] = [
     destination: "Rome, Italy",
     price: 91,
     rating: 4.7,
-    imageUrl: "https://picsum.photos/600/400?random=17",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -196,7 +196,7 @@ export const experiences: Experience[] = [
     destination: "Barcelona, Spain",
     price: 94,
     rating: 4.8,
-    imageUrl: "https://picsum.photos/600/400?random=18",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -207,7 +207,7 @@ export const experiences: Experience[] = [
     destination: "Cape Town, South Africa",
     price: 97,
     rating: 4.9,
-    imageUrl: "https://picsum.photos/600/400?random=19",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -218,7 +218,7 @@ export const experiences: Experience[] = [
     destination: "Banff, Canada",
     price: 100,
     rating: 4.0,
-    imageUrl: "https://picsum.photos/600/400?random=20",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -229,7 +229,7 @@ export const experiences: Experience[] = [
     destination: "Cusco, Peru",
     price: 103,
     rating: 4.1,
-    imageUrl: "https://picsum.photos/600/400?random=21",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -240,7 +240,7 @@ export const experiences: Experience[] = [
     destination: "Kyoto, Japan",
     price: 106,
     rating: 4.2,
-    imageUrl: "https://picsum.photos/600/400?random=22",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -251,7 +251,7 @@ export const experiences: Experience[] = [
     destination: "Paris, France",
     price: 109,
     rating: 4.3,
-    imageUrl: "https://picsum.photos/600/400?random=23",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -262,7 +262,7 @@ export const experiences: Experience[] = [
     destination: "Reykjavik, Iceland",
     price: 112,
     rating: 4.4,
-    imageUrl: "https://picsum.photos/600/400?random=24",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -273,7 +273,7 @@ export const experiences: Experience[] = [
     destination: "Queenstown, New Zealand",
     price: 115,
     rating: 4.5,
-    imageUrl: "https://picsum.photos/600/400?random=25",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -284,7 +284,7 @@ export const experiences: Experience[] = [
     destination: "Marrakech, Morocco",
     price: 118,
     rating: 4.6,
-    imageUrl: "https://picsum.photos/600/400?random=26",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -295,7 +295,7 @@ export const experiences: Experience[] = [
     destination: "Rome, Italy",
     price: 121,
     rating: 4.7,
-    imageUrl: "https://picsum.photos/600/400?random=27",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -306,7 +306,7 @@ export const experiences: Experience[] = [
     destination: "Barcelona, Spain",
     price: 124,
     rating: 4.8,
-    imageUrl: "https://picsum.photos/600/400?random=28",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -317,7 +317,7 @@ export const experiences: Experience[] = [
     destination: "Cape Town, South Africa",
     price: 127,
     rating: 4.9,
-    imageUrl: "https://picsum.photos/600/400?random=29",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -328,7 +328,7 @@ export const experiences: Experience[] = [
     destination: "Banff, Canada",
     price: 130,
     rating: 4.0,
-    imageUrl: "https://picsum.photos/600/400?random=30",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -339,7 +339,7 @@ export const experiences: Experience[] = [
     destination: "Cusco, Peru",
     price: 133,
     rating: 4.1,
-    imageUrl: "https://picsum.photos/600/400?random=31",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -350,7 +350,7 @@ export const experiences: Experience[] = [
     destination: "Kyoto, Japan",
     price: 136,
     rating: 4.2,
-    imageUrl: "https://picsum.photos/600/400?random=32",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -361,7 +361,7 @@ export const experiences: Experience[] = [
     destination: "Paris, France",
     price: 139,
     rating: 4.3,
-    imageUrl: "https://picsum.photos/600/400?random=33",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -372,7 +372,7 @@ export const experiences: Experience[] = [
     destination: "Reykjavik, Iceland",
     price: 142,
     rating: 4.4,
-    imageUrl: "https://picsum.photos/600/400?random=34",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -383,7 +383,7 @@ export const experiences: Experience[] = [
     destination: "Queenstown, New Zealand",
     price: 145,
     rating: 4.5,
-    imageUrl: "https://picsum.photos/600/400?random=35",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -394,7 +394,7 @@ export const experiences: Experience[] = [
     destination: "Marrakech, Morocco",
     price: 148,
     rating: 4.6,
-    imageUrl: "https://picsum.photos/600/400?random=36",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -405,7 +405,7 @@ export const experiences: Experience[] = [
     destination: "Rome, Italy",
     price: 151,
     rating: 4.7,
-    imageUrl: "https://picsum.photos/600/400?random=37",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -416,7 +416,7 @@ export const experiences: Experience[] = [
     destination: "Barcelona, Spain",
     price: 154,
     rating: 4.8,
-    imageUrl: "https://picsum.photos/600/400?random=38",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -427,7 +427,7 @@ export const experiences: Experience[] = [
     destination: "Cape Town, South Africa",
     price: 157,
     rating: 4.9,
-    imageUrl: "https://picsum.photos/600/400?random=39",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -438,7 +438,7 @@ export const experiences: Experience[] = [
     destination: "Banff, Canada",
     price: 160,
     rating: 4.0,
-    imageUrl: "https://picsum.photos/600/400?random=40",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -449,7 +449,7 @@ export const experiences: Experience[] = [
     destination: "Cusco, Peru",
     price: 163,
     rating: 4.1,
-    imageUrl: "https://picsum.photos/600/400?random=41",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -460,7 +460,7 @@ export const experiences: Experience[] = [
     destination: "Kyoto, Japan",
     price: 166,
     rating: 4.2,
-    imageUrl: "https://picsum.photos/600/400?random=42",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -471,7 +471,7 @@ export const experiences: Experience[] = [
     destination: "Paris, France",
     price: 169,
     rating: 4.3,
-    imageUrl: "https://picsum.photos/600/400?random=43",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -482,7 +482,7 @@ export const experiences: Experience[] = [
     destination: "Reykjavik, Iceland",
     price: 172,
     rating: 4.4,
-    imageUrl: "https://picsum.photos/600/400?random=44",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -493,7 +493,7 @@ export const experiences: Experience[] = [
     destination: "Queenstown, New Zealand",
     price: 175,
     rating: 4.5,
-    imageUrl: "https://picsum.photos/600/400?random=45",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -504,7 +504,7 @@ export const experiences: Experience[] = [
     destination: "Marrakech, Morocco",
     price: 178,
     rating: 4.6,
-    imageUrl: "https://picsum.photos/600/400?random=46",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -515,7 +515,7 @@ export const experiences: Experience[] = [
     destination: "Rome, Italy",
     price: 181,
     rating: 4.7,
-    imageUrl: "https://picsum.photos/600/400?random=47",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -526,7 +526,7 @@ export const experiences: Experience[] = [
     destination: "Barcelona, Spain",
     price: 184,
     rating: 4.8,
-    imageUrl: "https://picsum.photos/600/400?random=48",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -537,7 +537,7 @@ export const experiences: Experience[] = [
     destination: "Cape Town, South Africa",
     price: 187,
     rating: 4.9,
-    imageUrl: "https://picsum.photos/600/400?random=49",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -548,7 +548,7 @@ export const experiences: Experience[] = [
     destination: "Banff, Canada",
     price: 190,
     rating: 4.0,
-    imageUrl: "https://picsum.photos/600/400?random=50",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -559,7 +559,7 @@ export const experiences: Experience[] = [
     destination: "Cusco, Peru",
     price: 193,
     rating: 4.1,
-    imageUrl: "https://picsum.photos/600/400?random=51",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -570,7 +570,7 @@ export const experiences: Experience[] = [
     destination: "Kyoto, Japan",
     price: 196,
     rating: 4.2,
-    imageUrl: "https://picsum.photos/600/400?random=52",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -581,7 +581,7 @@ export const experiences: Experience[] = [
     destination: "Paris, France",
     price: 199,
     rating: 4.3,
-    imageUrl: "https://picsum.photos/600/400?random=53",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -592,7 +592,7 @@ export const experiences: Experience[] = [
     destination: "Reykjavik, Iceland",
     price: 202,
     rating: 4.4,
-    imageUrl: "https://picsum.photos/600/400?random=54",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -603,7 +603,7 @@ export const experiences: Experience[] = [
     destination: "Queenstown, New Zealand",
     price: 205,
     rating: 4.5,
-    imageUrl: "https://picsum.photos/600/400?random=55",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -614,7 +614,7 @@ export const experiences: Experience[] = [
     destination: "Marrakech, Morocco",
     price: 208,
     rating: 4.6,
-    imageUrl: "https://picsum.photos/600/400?random=56",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -625,7 +625,7 @@ export const experiences: Experience[] = [
     destination: "Rome, Italy",
     price: 211,
     rating: 4.7,
-    imageUrl: "https://picsum.photos/600/400?random=57",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -636,7 +636,7 @@ export const experiences: Experience[] = [
     destination: "Barcelona, Spain",
     price: 214,
     rating: 4.8,
-    imageUrl: "https://picsum.photos/600/400?random=58",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -647,7 +647,7 @@ export const experiences: Experience[] = [
     destination: "Cape Town, South Africa",
     price: 217,
     rating: 4.9,
-    imageUrl: "https://picsum.photos/600/400?random=59",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -658,7 +658,7 @@ export const experiences: Experience[] = [
     destination: "Banff, Canada",
     price: 40,
     rating: 4.0,
-    imageUrl: "https://picsum.photos/600/400?random=60",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -669,7 +669,7 @@ export const experiences: Experience[] = [
     destination: "Cusco, Peru",
     price: 43,
     rating: 4.1,
-    imageUrl: "https://picsum.photos/600/400?random=61",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -680,7 +680,7 @@ export const experiences: Experience[] = [
     destination: "Kyoto, Japan",
     price: 46,
     rating: 4.2,
-    imageUrl: "https://picsum.photos/600/400?random=62",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -691,7 +691,7 @@ export const experiences: Experience[] = [
     destination: "Paris, France",
     price: 49,
     rating: 4.3,
-    imageUrl: "https://picsum.photos/600/400?random=63",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -702,7 +702,7 @@ export const experiences: Experience[] = [
     destination: "Reykjavik, Iceland",
     price: 52,
     rating: 4.4,
-    imageUrl: "https://picsum.photos/600/400?random=64",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -713,7 +713,7 @@ export const experiences: Experience[] = [
     destination: "Queenstown, New Zealand",
     price: 55,
     rating: 4.5,
-    imageUrl: "https://picsum.photos/600/400?random=65",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -724,7 +724,7 @@ export const experiences: Experience[] = [
     destination: "Marrakech, Morocco",
     price: 58,
     rating: 4.6,
-    imageUrl: "https://picsum.photos/600/400?random=66",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -735,7 +735,7 @@ export const experiences: Experience[] = [
     destination: "Rome, Italy",
     price: 61,
     rating: 4.7,
-    imageUrl: "https://picsum.photos/600/400?random=67",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -746,7 +746,7 @@ export const experiences: Experience[] = [
     destination: "Barcelona, Spain",
     price: 64,
     rating: 4.8,
-    imageUrl: "https://picsum.photos/600/400?random=68",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -757,7 +757,7 @@ export const experiences: Experience[] = [
     destination: "Cape Town, South Africa",
     price: 67,
     rating: 4.9,
-    imageUrl: "https://picsum.photos/600/400?random=69",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -768,7 +768,7 @@ export const experiences: Experience[] = [
     destination: "Banff, Canada",
     price: 70,
     rating: 4.0,
-    imageUrl: "https://picsum.photos/600/400?random=70",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -779,7 +779,7 @@ export const experiences: Experience[] = [
     destination: "Cusco, Peru",
     price: 73,
     rating: 4.1,
-    imageUrl: "https://picsum.photos/600/400?random=71",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -790,7 +790,7 @@ export const experiences: Experience[] = [
     destination: "Kyoto, Japan",
     price: 76,
     rating: 4.2,
-    imageUrl: "https://picsum.photos/600/400?random=72",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -801,7 +801,7 @@ export const experiences: Experience[] = [
     destination: "Paris, France",
     price: 79,
     rating: 4.3,
-    imageUrl: "https://picsum.photos/600/400?random=73",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -812,7 +812,7 @@ export const experiences: Experience[] = [
     destination: "Reykjavik, Iceland",
     price: 82,
     rating: 4.4,
-    imageUrl: "https://picsum.photos/600/400?random=74",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -823,7 +823,7 @@ export const experiences: Experience[] = [
     destination: "Queenstown, New Zealand",
     price: 85,
     rating: 4.5,
-    imageUrl: "https://picsum.photos/600/400?random=75",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -834,7 +834,7 @@ export const experiences: Experience[] = [
     destination: "Marrakech, Morocco",
     price: 88,
     rating: 4.6,
-    imageUrl: "https://picsum.photos/600/400?random=76",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -845,7 +845,7 @@ export const experiences: Experience[] = [
     destination: "Rome, Italy",
     price: 91,
     rating: 4.7,
-    imageUrl: "https://picsum.photos/600/400?random=77",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -856,7 +856,7 @@ export const experiences: Experience[] = [
     destination: "Barcelona, Spain",
     price: 94,
     rating: 4.8,
-    imageUrl: "https://picsum.photos/600/400?random=78",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -867,7 +867,7 @@ export const experiences: Experience[] = [
     destination: "Cape Town, South Africa",
     price: 97,
     rating: 4.9,
-    imageUrl: "https://picsum.photos/600/400?random=79",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -878,7 +878,7 @@ export const experiences: Experience[] = [
     destination: "Banff, Canada",
     price: 100,
     rating: 4.0,
-    imageUrl: "https://picsum.photos/600/400?random=80",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -889,7 +889,7 @@ export const experiences: Experience[] = [
     destination: "Cusco, Peru",
     price: 103,
     rating: 4.1,
-    imageUrl: "https://picsum.photos/600/400?random=81",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -900,7 +900,7 @@ export const experiences: Experience[] = [
     destination: "Kyoto, Japan",
     price: 106,
     rating: 4.2,
-    imageUrl: "https://picsum.photos/600/400?random=82",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -911,7 +911,7 @@ export const experiences: Experience[] = [
     destination: "Paris, France",
     price: 109,
     rating: 4.3,
-    imageUrl: "https://picsum.photos/600/400?random=83",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -922,7 +922,7 @@ export const experiences: Experience[] = [
     destination: "Reykjavik, Iceland",
     price: 112,
     rating: 4.4,
-    imageUrl: "https://picsum.photos/600/400?random=84",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -933,7 +933,7 @@ export const experiences: Experience[] = [
     destination: "Queenstown, New Zealand",
     price: 115,
     rating: 4.5,
-    imageUrl: "https://picsum.photos/600/400?random=85",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -944,7 +944,7 @@ export const experiences: Experience[] = [
     destination: "Marrakech, Morocco",
     price: 118,
     rating: 4.6,
-    imageUrl: "https://picsum.photos/600/400?random=86",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -955,7 +955,7 @@ export const experiences: Experience[] = [
     destination: "Rome, Italy",
     price: 121,
     rating: 4.7,
-    imageUrl: "https://picsum.photos/600/400?random=87",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -966,7 +966,7 @@ export const experiences: Experience[] = [
     destination: "Barcelona, Spain",
     price: 124,
     rating: 4.8,
-    imageUrl: "https://picsum.photos/600/400?random=88",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -977,7 +977,7 @@ export const experiences: Experience[] = [
     destination: "Cape Town, South Africa",
     price: 127,
     rating: 4.9,
-    imageUrl: "https://picsum.photos/600/400?random=89",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -988,7 +988,7 @@ export const experiences: Experience[] = [
     destination: "Banff, Canada",
     price: 130,
     rating: 4.0,
-    imageUrl: "https://picsum.photos/600/400?random=90",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -999,7 +999,7 @@ export const experiences: Experience[] = [
     destination: "Cusco, Peru",
     price: 133,
     rating: 4.1,
-    imageUrl: "https://picsum.photos/600/400?random=91",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -1010,7 +1010,7 @@ export const experiences: Experience[] = [
     destination: "Kyoto, Japan",
     price: 136,
     rating: 4.2,
-    imageUrl: "https://picsum.photos/600/400?random=92",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -1021,7 +1021,7 @@ export const experiences: Experience[] = [
     destination: "Paris, France",
     price: 139,
     rating: 4.3,
-    imageUrl: "https://picsum.photos/600/400?random=93",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -1032,7 +1032,7 @@ export const experiences: Experience[] = [
     destination: "Reykjavik, Iceland",
     price: 142,
     rating: 4.4,
-    imageUrl: "https://picsum.photos/600/400?random=94",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -1043,7 +1043,7 @@ export const experiences: Experience[] = [
     destination: "Queenstown, New Zealand",
     price: 145,
     rating: 4.5,
-    imageUrl: "https://picsum.photos/600/400?random=95",
+        imageUrl: "/images/image-5.webp",
   },
 
   {
@@ -1054,7 +1054,7 @@ export const experiences: Experience[] = [
     destination: "Marrakech, Morocco",
     price: 148,
     rating: 4.6,
-    imageUrl: "https://picsum.photos/600/400?random=96",
+        imageUrl: "/images/image-1.webp",
   },
 
   {
@@ -1065,7 +1065,7 @@ export const experiences: Experience[] = [
     destination: "Rome, Italy",
     price: 151,
     rating: 4.7,
-    imageUrl: "https://picsum.photos/600/400?random=97",
+        imageUrl: "/images/image-2.webp",
   },
 
   {
@@ -1076,7 +1076,7 @@ export const experiences: Experience[] = [
     destination: "Barcelona, Spain",
     price: 154,
     rating: 4.8,
-    imageUrl: "https://picsum.photos/600/400?random=98",
+        imageUrl: "/images/image-3.webp",
   },
 
   {
@@ -1087,7 +1087,7 @@ export const experiences: Experience[] = [
     destination: "Cape Town, South Africa",
     price: 157,
     rating: 4.9,
-    imageUrl: "https://picsum.photos/600/400?random=99",
+        imageUrl: "/images/image-4.webp",
   },
 
   {
@@ -1098,7 +1098,7 @@ export const experiences: Experience[] = [
     destination: "Banff, Canada",
     price: 160,
     rating: 4.0,
-    imageUrl: "https://picsum.photos/600/400?random=100",
+        imageUrl: "/images/image-5.webp",
   }
 
 ];
