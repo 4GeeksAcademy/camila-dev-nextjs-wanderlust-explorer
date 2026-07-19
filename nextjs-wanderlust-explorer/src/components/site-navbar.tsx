@@ -1,8 +1,17 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import logo from "../../images/logo.png";
 
 export default function SiteNavbar() {
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+  const isExperiences = pathname.startsWith("/experiences");
+  const isFavorites = pathname.startsWith("/favorites");
+  const isProfile = pathname.startsWith("/profile");
+
   return (
     <header className="sticky top-0 z-40">
       <div className="w-full border-t-2 border-[#6f72ff] bg-white/95 px-4 py-2 shadow-[0_6px_18px_rgba(15,23,42,0.12)] backdrop-blur-md sm:px-6 md:px-8 lg:px-10">
@@ -13,17 +22,17 @@ export default function SiteNavbar() {
           </div>
 
           <nav className="hidden items-center justify-start gap-8 text-[13px] font-medium text-[#415271] md:ml-8 md:mr-auto md:flex lg:ml-10">
-            <Link href="/" className="text-[#0b57db]">
+            <Link href="/" className={isHome ? "text-[#0b57db]" : "transition-colors hover:text-[#0b57db]"}>
               Home
             </Link>
-            <Link href="/experiences" className="transition-colors hover:text-[#0b57db]">
-              Destinations
+            <Link href="/experiences" className={isExperiences ? "text-[#0b57db]" : "transition-colors hover:text-[#0b57db]"}>
+              Explorer
             </Link>
-            <Link href="/experiences" className="transition-colors hover:text-[#0b57db]">
-              Experiences
+            <Link href="/favorites" className={isFavorites ? "text-[#0b57db]" : "transition-colors hover:text-[#0b57db]"}>
+              Favorites
             </Link>
-            <Link href="/experiences" className="transition-colors hover:text-[#0b57db]">
-              Journal
+            <Link href="/profile" className={isProfile ? "text-[#0b57db]" : "transition-colors hover:text-[#0b57db]"}>
+              Perfil
             </Link>
           </nav>
 
@@ -59,26 +68,37 @@ export default function SiteNavbar() {
 
               <div className="invisible absolute right-0 top-10 w-52 rounded-xl border border-[#d9e3f6] bg-white p-2 opacity-0 shadow-[0_10px_24px_rgba(0,0,0,0.12)] transition group-open:visible group-open:opacity-100">
                 <nav className="flex flex-col">
-                  <Link href="/" className="rounded-lg px-3 py-2 text-sm font-medium text-[#0b57db] hover:bg-[#eef3ff]">
+                  <Link
+                    href="/"
+                    className={`rounded-lg px-3 py-2 text-sm font-medium hover:bg-[#eef3ff] ${
+                      isHome ? "text-[#0b57db]" : "text-[#415271]"
+                    }`}
+                  >
                     Home
                   </Link>
                   <Link
                     href="/experiences"
-                    className="rounded-lg px-3 py-2 text-sm font-medium text-[#415271] hover:bg-[#eef3ff]"
+                    className={`rounded-lg px-3 py-2 text-sm font-medium hover:bg-[#eef3ff] ${
+                      isExperiences ? "text-[#0b57db]" : "text-[#415271]"
+                    }`}
                   >
-                    Destinations
+                    Explorer
                   </Link>
                   <Link
-                    href="/experiences"
-                    className="rounded-lg px-3 py-2 text-sm font-medium text-[#415271] hover:bg-[#eef3ff]"
+                    href="/favorites"
+                    className={`rounded-lg px-3 py-2 text-sm font-medium hover:bg-[#eef3ff] ${
+                      isFavorites ? "text-[#0b57db]" : "text-[#415271]"
+                    }`}
                   >
-                    Experiences
+                    Favorites
                   </Link>
                   <Link
-                    href="/experiences"
-                    className="rounded-lg px-3 py-2 text-sm font-medium text-[#415271] hover:bg-[#eef3ff]"
+                    href="/profile"
+                    className={`rounded-lg px-3 py-2 text-sm font-medium hover:bg-[#eef3ff] ${
+                      isProfile ? "text-[#0b57db]" : "text-[#415271]"
+                    }`}
                   >
-                    Journal
+                    Perfil
                   </Link>
                   <Link
                     href="/experiences"

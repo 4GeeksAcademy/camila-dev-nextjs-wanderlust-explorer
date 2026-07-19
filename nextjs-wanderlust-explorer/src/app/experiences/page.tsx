@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import ExplorerCardsSection from "@/components/explorer-cards-section";
 import MobileBottomNav from "@/components/mobile-bottom-nav";
 import SiteFooter from "@/components/site-footer";
 import SiteNavbar from "@/components/site-navbar";
@@ -61,7 +62,7 @@ export default function ExperiencesPage({
 
         <div className="mt-8 flex items-end justify-between gap-3">
           <div>
-            <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">All Experiences</h2>
+            <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">Explorer</h2>
             <p className="mt-1 text-sm text-[#596175]">Showing {filteredExperiences.length} of {experiences.length} experiences</p>
           </div>
         </div>
@@ -127,43 +128,7 @@ export default function ExperiencesPage({
           </div>
         )}
 
-        <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
-          {filteredExperiences.map((experience) => (
-            <Link key={experience.id} href={`/experiences/${experience.id}`}>
-              <article className="group overflow-hidden rounded-2xl border border-[#d9e3f6] bg-white p-2.5 shadow-[0_4px_20px_rgba(0,0,0,0.05)] transition-all duration-300 ease-out transform-gpu hover:-translate-y-1 hover:shadow-[0_12px_28px_rgba(0,0,0,0.12)]">
-                <div className="relative h-44 overflow-hidden rounded-xl">
-                  <Image
-                    src={experience.imageUrl}
-                    alt={experience.title}
-                    fill
-                    className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
-                  />
-
-                  <span className="absolute left-2 top-2 rounded-full bg-white/95 px-2.5 py-1 text-[11px] font-semibold text-[#0b57db]">
-                    {experience.category}
-                  </span>
-                </div>
-
-                <div className="px-1 pb-1 pt-3">
-                  <h3 className="line-clamp-2 text-[17px] font-semibold leading-6">{experience.title}</h3>
-                  <p className="mt-1 text-sm text-[#5d6372]">{experience.destination}</p>
-                  <p className="mt-2 line-clamp-2 text-sm leading-5 text-[#6b7280]">{experience.description}</p>
-
-                  <div className="mt-3 flex items-center justify-between">
-                    <p className="text-sm font-semibold text-[#0b57db]">${experience.price}</p>
-                    <p className="text-xs font-medium text-[#5d6372]">★ {experience.rating.toFixed(1)}</p>
-                  </div>
-                </div>
-              </article>
-            </Link>
-          ))}
-        </div>
-
-        {filteredExperiences.length === 0 && (
-          <div className="mt-6 rounded-2xl border border-[#d9e3f6] bg-white p-6 text-center text-sm text-[#596175]">
-            No experiences match your current search and filters.
-          </div>
-        )}
+        <ExplorerCardsSection experiences={filteredExperiences} />
 
         <SiteFooter />
       </section>

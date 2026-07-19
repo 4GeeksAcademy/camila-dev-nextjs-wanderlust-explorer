@@ -26,12 +26,14 @@ export default async function ExperienceDetailPage({ params }: ExperienceDetailP
       <SiteNavbar />
 
       <section className="mx-auto w-full max-w-7xl px-4 pb-24 pt-6 sm:px-6 md:px-8 md:pb-14 lg:px-10">
+        <h1 className="mb-3 text-2xl font-bold tracking-tight text-[#121c2a] sm:text-3xl">Detalle</h1>
+
         <div className="mb-4">
           <Link
             href="/experiences"
             className="inline-flex items-center gap-2 rounded-xl border border-[#d9e3f6] bg-white px-4 py-2 text-sm font-medium text-[#415271] transition-colors hover:bg-[#f2f5fb]"
           >
-            ← Back to experiences
+            ← Back to Explorer
           </Link>
         </div>
 
