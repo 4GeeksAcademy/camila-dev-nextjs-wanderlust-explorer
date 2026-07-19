@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Experience } from "@/types/Experience";
+import { getCategoryLabel } from "@/utils/categoryLabels";
 
 type ExperienceGridProps = {
   experiences: Experience[];
@@ -42,12 +43,12 @@ export default function ExperienceGrid({
                 />
 
                 <span className="absolute left-2 top-2 rounded-full bg-white/95 px-2.5 py-1 text-[11px] font-semibold text-[#0b57db]">
-                  {experience.category}
+                  {getCategoryLabel(experience.category)}
                 </span>
 
                 <button
                   type="button"
-                  aria-label={isFavorite ? "Remove from favorites" : "Add to favorites"}
+                  aria-label={isFavorite ? "Quitar de favoritos" : "Agregar a favoritos"}
                   onClick={(event) => {
                     event.preventDefault();
                     event.stopPropagation();

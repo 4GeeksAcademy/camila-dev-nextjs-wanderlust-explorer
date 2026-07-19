@@ -1,45 +1,45 @@
 import Image from "next/image";
 import Link from "next/link";
-import MobileBottomNav from "@/components/mobile-bottom-nav";
+import MobileBottomNav from "@/components/MobileBottomNav";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 const categories = [
-  { name: "Adventure", image: "/images/cat-adventure.jpg" },
-  { name: "Culture", image: "/images/cat-culture.jpg" },
+  { name: "Aventura", image: "/images/cat-adventure.jpg" },
+  { name: "Cultura", image: "/images/cat-culture.jpg" },
 ];
 
 const experiences = [
   {
-    title: "Sunset Gondola & Dinner",
-    location: "Venice, Italy",
-    duration: "3 Hours",
+    title: "Paseo en gondola al atardecer y cena",
+    location: "Venecia, Italia",
+    duration: "3 horas",
     price: "$145",
-    rating: "4.9 (128 reviews)",
+    rating: "4.9 (128 reseñas)",
     image: "/images/exp-1.jpg",
   },
   {
-    title: "Masterclass: Tokyo Sushi",
-    location: "Tokyo, Japan",
-    duration: "4 Hours",
+    title: "Clase magistral: sushi en Tokio",
+    location: "Tokio, Japón",
+    duration: "4 horas",
     price: "$210",
-    rating: "5.0 (84 reviews)",
+    rating: "5.0 (84 reseñas)",
     image: "/images/exp-2.jpg",
   },
   {
-    title: "Cappadocia Sunrise Flight",
-    location: "Goreme, Turkey",
-    duration: "2 Hours",
+    title: "Vuelo al amanecer en Capadocia",
+    location: "Goreme, Turquía",
+    duration: "2 horas",
     price: "$180",
-    rating: "4.8 (312 reviews)",
+    rating: "4.8 (312 reseñas)",
     image: "/images/exp-3.jpg",
   },
   {
-    title: "Alpine Lake Meditation",
-    location: "Interlaken, Switzerland",
-    duration: "5 Hours",
+    title: "Meditación en lago alpino",
+    location: "Interlaken, Suiza",
+    duration: "5 horas",
     price: "$95",
-    rating: "4.9 (95 reviews)",
+    rating: "4.9 (95 reseñas)",
     image: "/images/exp-4.jpg",
   },
 ];
@@ -52,7 +52,7 @@ export default function Home() {
       <section className="relative h-[78vh] min-h-[540px] w-full overflow-hidden md:min-h-[620px] lg:min-h-[680px]">
         <Image
           src="/images/hero-coast.jpg"
-          alt="Coastline view at golden hour"
+          alt="Vista costera al atardecer"
           fill
           priority
           className="object-cover"
@@ -63,18 +63,18 @@ export default function Home() {
           <div className="mx-auto w-full max-w-7xl px-4 sm:px-4 md:px-8 lg:px-10">
             <div className="mx-auto max-w-[340px] text-center text-white sm:max-w-[520px] md:mx-0 md:max-w-2xl md:text-left">
               <h1 className="text-4xl font-bold leading-10 tracking-tight sm:text-5xl sm:leading-[1.05] lg:text-6xl">
-                Discover Extraordinary
+                Descubre experiencias
                 <br />
-                Experiences
+                extraordinarias
               </h1>
               <p className="mx-auto mt-3 max-w-[300px] text-sm leading-5 text-white/80 sm:max-w-[460px] sm:text-base sm:leading-6 md:mx-0 md:max-w-[560px]">
-                Book unique cultural tours, outdoor escapes and memorable moments that last a lifetime.
+                Reserva tours culturales únicos, escapadas al aire libre y momentos memorables para toda la vida.
               </p>
               <Link
                 href="/experiences"
                 className="mt-6 inline-flex rounded-xl bg-[#0b57db] px-7 py-3 text-sm font-semibold text-white shadow-[0_10px_24px_rgba(11,87,219,0.45)] transition-colors hover:bg-[#0050cb] sm:px-8 sm:py-3.5"
               >
-                Explore Experiences
+                Explorar experiencias
               </Link>
             </div>
           </div>
@@ -84,8 +84,8 @@ export default function Home() {
       <div className="mx-auto min-h-screen w-full max-w-7xl bg-[#e8ebf1] pb-24 md:pb-10">
 
         <section className="px-4 pt-8 sm:px-6 md:px-8 lg:px-10">
-          <h2 className="text-2xl font-semibold">Browse by Category</h2>
-          <p className="mt-1 text-sm text-[#596175]">Find your next passion</p>
+          <h2 className="text-2xl font-semibold">Explora por categoría</h2>
+          <p className="mt-1 text-sm text-[#596175]">Encuentra tu próxima pasión</p>
 
           <div className="mt-4 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-4">
             {categories.map((category) => (
@@ -106,11 +106,11 @@ export default function Home() {
         <section className="px-4 pt-10 sm:px-6 md:px-8 lg:px-10">
           <div className="flex items-end justify-between">
             <div>
-              <h2 className="text-2xl font-semibold">Popular Experiences</h2>
-              <p className="mt-1 text-sm text-[#596175]">Handpicked by our local experts</p>
+              <h2 className="text-2xl font-semibold">Experiencias populares</h2>
+              <p className="mt-1 text-sm text-[#596175]">Seleccionadas por nuestros expertos locales</p>
             </div>
             <Link href="/experiences" className="text-sm font-medium text-[#0b57db]">
-              See all &gt;
+              Ver todas &gt;
             </Link>
           </div>
 
@@ -120,7 +120,7 @@ export default function Home() {
                 <div className="relative h-36 overflow-hidden rounded-lg sm:h-44">
                   <Image src={experience.image} alt={experience.title} fill className="object-cover" />
                   <button
-                    aria-label="Favorite"
+                    aria-label="Favorito"
                     className="absolute right-2 top-2 inline-flex h-7 w-7 items-center justify-center rounded-full bg-white/85 text-sm text-[#7a8091]"
                   >
                     ♡
@@ -136,7 +136,7 @@ export default function Home() {
 
                   <div className="mt-3 flex items-center justify-between">
                     <p className="text-sm text-[#6b7280]">
-                      From <span className="font-semibold text-[#0b57db]">{experience.price}</span>
+                      Desde <span className="font-semibold text-[#0b57db]">{experience.price}</span>
                     </p>
                     <Link
                       href="/experiences"
@@ -153,19 +153,19 @@ export default function Home() {
 
         <section className="px-4 pt-8 sm:px-6 md:px-8 lg:px-10">
           <div className="rounded-2xl bg-[#0b57db] px-6 py-8 text-center text-white shadow-[0_10px_30px_rgba(11,87,219,0.38)] md:px-10 md:py-10">
-            <h2 className="text-3xl font-bold leading-9">Get Inspired by the World</h2>
+            <h2 className="text-3xl font-bold leading-9">Inspira tu próximo viaje</h2>
             <p className="mx-auto mt-3 max-w-[260px] text-sm leading-6 text-blue-100 md:max-w-xl md:text-base">
-              Join 50,000+ travelers receiving weekly guides to the world&apos;s most unique destinations.
+              Únete a más de 50,000 viajeros que reciben guías semanales de destinos únicos alrededor del mundo.
             </p>
 
             <div className="mt-5 space-y-2 md:mx-auto md:flex md:max-w-xl md:items-center md:gap-2 md:space-y-0">
               <input
                 type="email"
-                placeholder="Your email address"
+                placeholder="Tu correo electrónico"
                 className="w-full rounded-xl border border-white/25 bg-white/20 px-4 py-3 text-sm text-white placeholder:text-blue-100 focus:outline-none focus:ring-2 focus:ring-white/45"
               />
               <button className="w-full rounded-xl bg-white px-4 py-3 text-sm font-semibold text-[#0b57db] transition-colors hover:bg-[#ecf2ff] md:w-auto md:shrink-0 md:px-6">
-                Subscribe
+                Suscribirme
               </button>
             </div>
           </div>

@@ -10,12 +10,12 @@ export default function FavoritesCardsSection({ experiences }: { experiences: Ex
 
   return (
     <div className="mt-6">
-      <p className="text-sm text-[#596175]">Showing {favoriteExperiences.length} favorite experiences</p>
+      <p className="text-sm text-[#596175]">Mostrando {favoriteExperiences.length} experiencias favoritas</p>
       <ExperienceGrid
         experiences={favoriteExperiences}
         favoriteIds={favoriteIds}
         onToggleFavorite={toggleFavorite}
-        emptyMessage="You do not have favorites yet. Tap the heart icon in Explorer to save experiences here."
+        emptyMessage="Aún no tienes favoritos. Toca el ícono de corazón en el Explorador para guardarlos aquí."
       />
     </div>
   );

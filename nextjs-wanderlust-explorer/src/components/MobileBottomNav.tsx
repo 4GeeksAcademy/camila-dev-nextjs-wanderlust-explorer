@@ -3,14 +3,25 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const navItems = [
+export type MobileBottomNavItem = {
+  href: string;
+  label: string;
+  icon: string;
+  activeIcon?: string | null;
+};
+
+const defaultNavItems: MobileBottomNavItem[] = [
   { href: "/", label: "Home", icon: "⌂", activeIcon: null },
-  { href: "/experiences", label: "Explorer", icon: "⦿", activeIcon: "⦿" },
-  { href: "/favorites", label: "Favorites", icon: "♡", activeIcon: null },
-  { href: "/profile", label: "Profile", icon: "◔", activeIcon: null },
+  { href: "/experiences", label: "Explorador", icon: "⦿", activeIcon: "⦿" },
+  { href: "/favorites", label: "Favoritos", icon: "♡", activeIcon: null },
+  { href: "/profile", label: "Perfil", icon: "◔", activeIcon: null },
 ];
 
-export default function MobileBottomNav() {
+type MobileBottomNavProps = {
+  navItems?: MobileBottomNavItem[];
+};
+
+export default function MobileBottomNav({ navItems = defaultNavItems }: MobileBottomNavProps) {
   const pathname = usePathname();
 
   return (

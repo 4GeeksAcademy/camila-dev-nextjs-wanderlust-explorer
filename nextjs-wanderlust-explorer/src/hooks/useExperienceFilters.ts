@@ -4,6 +4,8 @@ import { useEffect, useMemo, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import type { Experience } from "@/types/Experience";
 
+const REQUIRED_CATEGORIES = ["Adventure", "Culture", "Food", "Wellness", "Nature"] as const;
+
 export default function useExperienceFilters(experiences: Experience[]) {
   const router = useRouter();
   const pathname = usePathname();
@@ -36,10 +38,11 @@ export default function useExperienceFilters(experiences: Experience[]) {
     }
   }, [query, category, destination, pathname, router, searchParams]);
 
-  const categories = useMemo(
-    () => Array.from(new Set(experiences.map((experience) => experience.category))),
-    [experiences],
-  );
+  const categories = useMemo(() => {
+    const availableCategories = new Set(experiences.map((experience) => experience.category));
+
+    return REQUIRED_CATEGORIES.filter((item) => availableCategories.has(item));
+  }, [experiences]);
 
   const destinations = useMemo(
     () => Array.from(new Set(experiences.map((experience) => experience.destination))).sort(),
@@ -47,13 +50,12 @@ export default function useExperienceFilters(experiences: Experience[]) {
   );
 
   const filteredExperiences = useMemo(() => {
-    const normalizedQuery = query.trim().toLowerCase();
+    const searchTerm = query.trim();
+    const escapedSearchTerm = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const titleRegex = escapedSearchTerm.length > 0 ? new RegExp(escapedSearchTerm, "i") : null;
 
     return experiences.filter((experience) => {
-      const matchesQuery =
-        normalizedQuery.length === 0 ||
-        experience.title.toLowerCase().includes(normalizedQuery) ||
-        experience.description.toLowerCase().includes(normalizedQuery);
+      const matchesQuery = !titleRegex || titleRegex.test(experience.title);
       const matchesCategory = !category || experience.category === category;
       const matchesDestination = !destination || experience.destination === destination;
 

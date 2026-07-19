@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="w-full border-t-2 border-[#6f72ff] bg-white/95 px-4 py-2 shadow-[0_6px_18px_rgba(15,23,42,0.12)] backdrop-blur-md sm:px-6 md:px-8 lg:px-10">
         <div className="flex items-center justify-between gap-3">
           <div className="inline-flex items-center gap-2">
-            <Image src={logo} alt="Voyage logo" width={20} height={20} className="rounded-full" />
+            <Image src={logo} alt="Logotipo de Voyage" width={20} height={20} className="rounded-full" />
             <span className="text-base font-bold text-[#0f4fd8]">Voyage</span>
           </div>
 
@@ -26,10 +26,10 @@ export default function Navbar() {
               Home
             </Link>
             <Link href="/experiences" className={isExperiences ? "text-[#0b57db]" : "transition-colors hover:text-[#0b57db]"}>
-              Explorer
+              Explorador
             </Link>
             <Link href="/favorites" className={isFavorites ? "text-[#0b57db]" : "transition-colors hover:text-[#0b57db]"}>
-              Favorites
+              Favoritos
             </Link>
             <Link href="/profile" className={isProfile ? "text-[#0b57db]" : "transition-colors hover:text-[#0b57db]"}>
               Perfil
@@ -38,7 +38,7 @@ export default function Navbar() {
 
           <div className="flex items-center gap-2 text-[#4b5565]">
             <button
-              aria-label="Search"
+              aria-label="Buscar"
               className="inline-flex h-8 w-8 items-center justify-center rounded-md transition-colors hover:bg-[#eef3ff]"
             >
               <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2">
@@ -51,12 +51,12 @@ export default function Navbar() {
               href="/experiences"
               className="hidden rounded-md bg-[#0b57db] px-3 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-[#0050cb] md:inline-flex"
             >
-              Sign In
+              Iniciar sesión
             </Link>
 
             <details className="group relative md:hidden">
               <summary
-                aria-label="Open menu"
+                aria-label="Abrir menú"
                 className="inline-flex h-8 w-8 list-none items-center justify-center rounded-md transition-colors hover:bg-[#eef3ff] [&::-webkit-details-marker]:hidden"
               >
                 <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2">
@@ -82,7 +82,7 @@ export default function Navbar() {
                       isExperiences ? "text-[#0b57db]" : "text-[#415271]"
                     }`}
                   >
-                    Explorer
+                    Explorador
                   </Link>
                   <Link
                     href="/favorites"
@@ -90,7 +90,7 @@ export default function Navbar() {
                       isFavorites ? "text-[#0b57db]" : "text-[#415271]"
                     }`}
                   >
-                    Favorites
+                    Favoritos
                   </Link>
                   <Link
                     href="/profile"
@@ -104,7 +104,7 @@ export default function Navbar() {
                     href="/experiences"
                     className="mt-1 rounded-lg bg-[#0b57db] px-3 py-2 text-center text-sm font-semibold text-white hover:bg-[#0050cb]"
                   >
-                    Sign In
+                    Iniciar sesión
                   </Link>
                 </nav>
               </div>

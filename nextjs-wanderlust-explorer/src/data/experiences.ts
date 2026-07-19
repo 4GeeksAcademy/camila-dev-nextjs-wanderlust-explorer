@@ -3,10 +3,10 @@ import { Experience } from "@/types/Experience";
 export const experiences: Experience[] = [
   {
     id: 1,
-    title: "Sunrise Hike #1",
-    description: "Enjoy an authentic adventure experience in Cusco with local guides and memorable activities.",
+    title: "Caminata al amanecer #1",
+    description: "Disfruta una auténtica experiencia de aventura en Cusco con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Cusco, Peru",
+    destination: "Cusco, Perú",
     price: 43,
     rating: 4.1,
         imageUrl: "/images/image-1.webp",
@@ -14,10 +14,10 @@ export const experiences: Experience[] = [
 
   {
     id: 2,
-    title: "Historic Walking Tour #2",
-    description: "Enjoy an authentic culture experience in Kyoto with local guides and memorable activities.",
+    title: "Tour histórico a pie #2",
+    description: "Disfruta una auténtica experiencia de cultura en Kioto con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Kyoto, Japan",
+    destination: "Kioto, Japón",
     price: 46,
     rating: 4.2,
         imageUrl: "/images/image-2.webp",
@@ -25,10 +25,10 @@ export const experiences: Experience[] = [
 
   {
     id: 3,
-    title: "Local Food Experience #3",
-    description: "Enjoy an authentic food experience in Paris with local guides and memorable activities.",
+    title: "Experiencia gastronómica local #3",
+    description: "Disfruta una auténtica experiencia de gastronomía en París con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Paris, France",
+    destination: "París, Francia",
     price: 49,
     rating: 4.3,
         imageUrl: "/images/image-3.webp",
@@ -36,10 +36,10 @@ export const experiences: Experience[] = [
 
   {
     id: 4,
-    title: "Yoga Retreat #4",
-    description: "Enjoy an authentic wellness experience in Reykjavik with local guides and memorable activities.",
+    title: "Retiro de yoga #4",
+    description: "Disfruta una auténtica experiencia de bienestar en Reikiavik con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Reykjavik, Iceland",
+    destination: "Reikiavik, Islandia",
     price: 52,
     rating: 4.4,
         imageUrl: "/images/image-4.webp",
@@ -47,10 +47,10 @@ export const experiences: Experience[] = [
 
   {
     id: 5,
-    title: "Nature Escape #5",
-    description: "Enjoy an authentic nature experience in Queenstown with local guides and memorable activities.",
+    title: "Escape en la naturaleza #5",
+    description: "Disfruta una auténtica experiencia de naturaleza en Queenstown con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Queenstown, New Zealand",
+    destination: "Queenstown, Nueva Zelanda",
     price: 55,
     rating: 4.5,
         imageUrl: "/images/image-5.webp",
@@ -58,10 +58,10 @@ export const experiences: Experience[] = [
 
   {
     id: 6,
-    title: "City Discovery #6",
-    description: "Enjoy an authentic adventure experience in Marrakech with local guides and memorable activities.",
+    title: "Descubrimiento de ciudad #6",
+    description: "Disfruta una auténtica experiencia de aventura en Marrakech con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Marrakech, Morocco",
+    destination: "Marrakech, Marruecos",
     price: 58,
     rating: 4.6,
         imageUrl: "/images/image-1.webp",
@@ -69,10 +69,10 @@ export const experiences: Experience[] = [
 
   {
     id: 7,
-    title: "Cooking Workshop #7",
-    description: "Enjoy an authentic culture experience in Rome with local guides and memorable activities.",
+    title: "Taller de cocina #7",
+    description: "Disfruta una auténtica experiencia de cultura en Roma con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Rome, Italy",
+    destination: "Roma, Italia",
     price: 61,
     rating: 4.7,
         imageUrl: "/images/image-2.webp",
@@ -80,10 +80,10 @@ export const experiences: Experience[] = [
 
   {
     id: 8,
-    title: "Kayak Adventure #8",
-    description: "Enjoy an authentic food experience in Barcelona with local guides and memorable activities.",
+    title: "Aventura en kayak #8",
+    description: "Disfruta una auténtica experiencia de gastronomía en Barcelona con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Barcelona, Spain",
+    destination: "Barcelona, España",
     price: 64,
     rating: 4.8,
         imageUrl: "/images/image-3.webp",
@@ -91,10 +91,10 @@ export const experiences: Experience[] = [
 
   {
     id: 9,
-    title: "Mountain Trek #9",
-    description: "Enjoy an authentic wellness experience in Cape Town with local guides and memorable activities.",
+    title: "Trekking de montaña #9",
+    description: "Disfruta una auténtica experiencia de bienestar en Ciudad del Cabo con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Cape Town, South Africa",
+    destination: "Ciudad del Cabo, Sudáfrica",
     price: 67,
     rating: 4.9,
         imageUrl: "/images/image-4.webp",
@@ -102,10 +102,10 @@ export const experiences: Experience[] = [
 
   {
     id: 10,
-    title: "Wine Tasting #10",
-    description: "Enjoy an authentic nature experience in Banff with local guides and memorable activities.",
+    title: "Cata de vinos #10",
+    description: "Disfruta una auténtica experiencia de naturaleza en Banff con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Banff, Canada",
+    destination: "Banff, Canadá",
     price: 70,
     rating: 4.0,
         imageUrl: "/images/image-5.webp",
@@ -113,10 +113,10 @@ export const experiences: Experience[] = [
 
   {
     id: 11,
-    title: "Sunrise Hike #11",
-    description: "Enjoy an authentic adventure experience in Cusco with local guides and memorable activities.",
+    title: "Caminata al amanecer #11",
+    description: "Disfruta una auténtica experiencia de aventura en Cusco con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Cusco, Peru",
+    destination: "Cusco, Perú",
     price: 73,
     rating: 4.1,
         imageUrl: "/images/image-1.webp",
@@ -124,10 +124,10 @@ export const experiences: Experience[] = [
 
   {
     id: 12,
-    title: "Historic Walking Tour #12",
-    description: "Enjoy an authentic culture experience in Kyoto with local guides and memorable activities.",
+    title: "Tour histórico a pie #12",
+    description: "Disfruta una auténtica experiencia de cultura en Kioto con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Kyoto, Japan",
+    destination: "Kioto, Japón",
     price: 76,
     rating: 4.2,
         imageUrl: "/images/image-2.webp",
@@ -135,10 +135,10 @@ export const experiences: Experience[] = [
 
   {
     id: 13,
-    title: "Local Food Experience #13",
-    description: "Enjoy an authentic food experience in Paris with local guides and memorable activities.",
+    title: "Experiencia gastronómica local #13",
+    description: "Disfruta una auténtica experiencia de gastronomía en París con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Paris, France",
+    destination: "París, Francia",
     price: 79,
     rating: 4.3,
         imageUrl: "/images/image-3.webp",
@@ -146,10 +146,10 @@ export const experiences: Experience[] = [
 
   {
     id: 14,
-    title: "Yoga Retreat #14",
-    description: "Enjoy an authentic wellness experience in Reykjavik with local guides and memorable activities.",
+    title: "Retiro de yoga #14",
+    description: "Disfruta una auténtica experiencia de bienestar en Reikiavik con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Reykjavik, Iceland",
+    destination: "Reikiavik, Islandia",
     price: 82,
     rating: 4.4,
         imageUrl: "/images/image-4.webp",
@@ -157,10 +157,10 @@ export const experiences: Experience[] = [
 
   {
     id: 15,
-    title: "Nature Escape #15",
-    description: "Enjoy an authentic nature experience in Queenstown with local guides and memorable activities.",
+    title: "Escape en la naturaleza #15",
+    description: "Disfruta una auténtica experiencia de naturaleza en Queenstown con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Queenstown, New Zealand",
+    destination: "Queenstown, Nueva Zelanda",
     price: 85,
     rating: 4.5,
         imageUrl: "/images/image-5.webp",
@@ -168,10 +168,10 @@ export const experiences: Experience[] = [
 
   {
     id: 16,
-    title: "City Discovery #16",
-    description: "Enjoy an authentic adventure experience in Marrakech with local guides and memorable activities.",
+    title: "Descubrimiento de ciudad #16",
+    description: "Disfruta una auténtica experiencia de aventura en Marrakech con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Marrakech, Morocco",
+    destination: "Marrakech, Marruecos",
     price: 88,
     rating: 4.6,
         imageUrl: "/images/image-1.webp",
@@ -179,10 +179,10 @@ export const experiences: Experience[] = [
 
   {
     id: 17,
-    title: "Cooking Workshop #17",
-    description: "Enjoy an authentic culture experience in Rome with local guides and memorable activities.",
+    title: "Taller de cocina #17",
+    description: "Disfruta una auténtica experiencia de cultura en Roma con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Rome, Italy",
+    destination: "Roma, Italia",
     price: 91,
     rating: 4.7,
         imageUrl: "/images/image-2.webp",
@@ -190,10 +190,10 @@ export const experiences: Experience[] = [
 
   {
     id: 18,
-    title: "Kayak Adventure #18",
-    description: "Enjoy an authentic food experience in Barcelona with local guides and memorable activities.",
+    title: "Aventura en kayak #18",
+    description: "Disfruta una auténtica experiencia de gastronomía en Barcelona con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Barcelona, Spain",
+    destination: "Barcelona, España",
     price: 94,
     rating: 4.8,
         imageUrl: "/images/image-3.webp",
@@ -201,10 +201,10 @@ export const experiences: Experience[] = [
 
   {
     id: 19,
-    title: "Mountain Trek #19",
-    description: "Enjoy an authentic wellness experience in Cape Town with local guides and memorable activities.",
+    title: "Trekking de montaña #19",
+    description: "Disfruta una auténtica experiencia de bienestar en Ciudad del Cabo con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Cape Town, South Africa",
+    destination: "Ciudad del Cabo, Sudáfrica",
     price: 97,
     rating: 4.9,
         imageUrl: "/images/image-4.webp",
@@ -212,10 +212,10 @@ export const experiences: Experience[] = [
 
   {
     id: 20,
-    title: "Wine Tasting #20",
-    description: "Enjoy an authentic nature experience in Banff with local guides and memorable activities.",
+    title: "Cata de vinos #20",
+    description: "Disfruta una auténtica experiencia de naturaleza en Banff con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Banff, Canada",
+    destination: "Banff, Canadá",
     price: 100,
     rating: 4.0,
         imageUrl: "/images/image-5.webp",
@@ -223,10 +223,10 @@ export const experiences: Experience[] = [
 
   {
     id: 21,
-    title: "Sunrise Hike #21",
-    description: "Enjoy an authentic adventure experience in Cusco with local guides and memorable activities.",
+    title: "Caminata al amanecer #21",
+    description: "Disfruta una auténtica experiencia de aventura en Cusco con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Cusco, Peru",
+    destination: "Cusco, Perú",
     price: 103,
     rating: 4.1,
         imageUrl: "/images/image-1.webp",
@@ -234,10 +234,10 @@ export const experiences: Experience[] = [
 
   {
     id: 22,
-    title: "Historic Walking Tour #22",
-    description: "Enjoy an authentic culture experience in Kyoto with local guides and memorable activities.",
+    title: "Tour histórico a pie #22",
+    description: "Disfruta una auténtica experiencia de cultura en Kioto con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Kyoto, Japan",
+    destination: "Kioto, Japón",
     price: 106,
     rating: 4.2,
         imageUrl: "/images/image-2.webp",
@@ -245,10 +245,10 @@ export const experiences: Experience[] = [
 
   {
     id: 23,
-    title: "Local Food Experience #23",
-    description: "Enjoy an authentic food experience in Paris with local guides and memorable activities.",
+    title: "Experiencia gastronómica local #23",
+    description: "Disfruta una auténtica experiencia de gastronomía en París con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Paris, France",
+    destination: "París, Francia",
     price: 109,
     rating: 4.3,
         imageUrl: "/images/image-3.webp",
@@ -256,10 +256,10 @@ export const experiences: Experience[] = [
 
   {
     id: 24,
-    title: "Yoga Retreat #24",
-    description: "Enjoy an authentic wellness experience in Reykjavik with local guides and memorable activities.",
+    title: "Retiro de yoga #24",
+    description: "Disfruta una auténtica experiencia de bienestar en Reikiavik con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Reykjavik, Iceland",
+    destination: "Reikiavik, Islandia",
     price: 112,
     rating: 4.4,
         imageUrl: "/images/image-4.webp",
@@ -267,10 +267,10 @@ export const experiences: Experience[] = [
 
   {
     id: 25,
-    title: "Nature Escape #25",
-    description: "Enjoy an authentic nature experience in Queenstown with local guides and memorable activities.",
+    title: "Escape en la naturaleza #25",
+    description: "Disfruta una auténtica experiencia de naturaleza en Queenstown con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Queenstown, New Zealand",
+    destination: "Queenstown, Nueva Zelanda",
     price: 115,
     rating: 4.5,
         imageUrl: "/images/image-5.webp",
@@ -278,10 +278,10 @@ export const experiences: Experience[] = [
 
   {
     id: 26,
-    title: "City Discovery #26",
-    description: "Enjoy an authentic adventure experience in Marrakech with local guides and memorable activities.",
+    title: "Descubrimiento de ciudad #26",
+    description: "Disfruta una auténtica experiencia de aventura en Marrakech con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Marrakech, Morocco",
+    destination: "Marrakech, Marruecos",
     price: 118,
     rating: 4.6,
         imageUrl: "/images/image-1.webp",
@@ -289,10 +289,10 @@ export const experiences: Experience[] = [
 
   {
     id: 27,
-    title: "Cooking Workshop #27",
-    description: "Enjoy an authentic culture experience in Rome with local guides and memorable activities.",
+    title: "Taller de cocina #27",
+    description: "Disfruta una auténtica experiencia de cultura en Roma con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Rome, Italy",
+    destination: "Roma, Italia",
     price: 121,
     rating: 4.7,
         imageUrl: "/images/image-2.webp",
@@ -300,10 +300,10 @@ export const experiences: Experience[] = [
 
   {
     id: 28,
-    title: "Kayak Adventure #28",
-    description: "Enjoy an authentic food experience in Barcelona with local guides and memorable activities.",
+    title: "Aventura en kayak #28",
+    description: "Disfruta una auténtica experiencia de gastronomía en Barcelona con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Barcelona, Spain",
+    destination: "Barcelona, España",
     price: 124,
     rating: 4.8,
         imageUrl: "/images/image-3.webp",
@@ -311,10 +311,10 @@ export const experiences: Experience[] = [
 
   {
     id: 29,
-    title: "Mountain Trek #29",
-    description: "Enjoy an authentic wellness experience in Cape Town with local guides and memorable activities.",
+    title: "Trekking de montaña #29",
+    description: "Disfruta una auténtica experiencia de bienestar en Ciudad del Cabo con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Cape Town, South Africa",
+    destination: "Ciudad del Cabo, Sudáfrica",
     price: 127,
     rating: 4.9,
         imageUrl: "/images/image-4.webp",
@@ -322,10 +322,10 @@ export const experiences: Experience[] = [
 
   {
     id: 30,
-    title: "Wine Tasting #30",
-    description: "Enjoy an authentic nature experience in Banff with local guides and memorable activities.",
+    title: "Cata de vinos #30",
+    description: "Disfruta una auténtica experiencia de naturaleza en Banff con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Banff, Canada",
+    destination: "Banff, Canadá",
     price: 130,
     rating: 4.0,
         imageUrl: "/images/image-5.webp",
@@ -333,10 +333,10 @@ export const experiences: Experience[] = [
 
   {
     id: 31,
-    title: "Sunrise Hike #31",
-    description: "Enjoy an authentic adventure experience in Cusco with local guides and memorable activities.",
+    title: "Caminata al amanecer #31",
+    description: "Disfruta una auténtica experiencia de aventura en Cusco con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Cusco, Peru",
+    destination: "Cusco, Perú",
     price: 133,
     rating: 4.1,
         imageUrl: "/images/image-1.webp",
@@ -344,10 +344,10 @@ export const experiences: Experience[] = [
 
   {
     id: 32,
-    title: "Historic Walking Tour #32",
-    description: "Enjoy an authentic culture experience in Kyoto with local guides and memorable activities.",
+    title: "Tour histórico a pie #32",
+    description: "Disfruta una auténtica experiencia de cultura en Kioto con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Kyoto, Japan",
+    destination: "Kioto, Japón",
     price: 136,
     rating: 4.2,
         imageUrl: "/images/image-2.webp",
@@ -355,10 +355,10 @@ export const experiences: Experience[] = [
 
   {
     id: 33,
-    title: "Local Food Experience #33",
-    description: "Enjoy an authentic food experience in Paris with local guides and memorable activities.",
+    title: "Experiencia gastronómica local #33",
+    description: "Disfruta una auténtica experiencia de gastronomía en París con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Paris, France",
+    destination: "París, Francia",
     price: 139,
     rating: 4.3,
         imageUrl: "/images/image-3.webp",
@@ -366,10 +366,10 @@ export const experiences: Experience[] = [
 
   {
     id: 34,
-    title: "Yoga Retreat #34",
-    description: "Enjoy an authentic wellness experience in Reykjavik with local guides and memorable activities.",
+    title: "Retiro de yoga #34",
+    description: "Disfruta una auténtica experiencia de bienestar en Reikiavik con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Reykjavik, Iceland",
+    destination: "Reikiavik, Islandia",
     price: 142,
     rating: 4.4,
         imageUrl: "/images/image-4.webp",
@@ -377,10 +377,10 @@ export const experiences: Experience[] = [
 
   {
     id: 35,
-    title: "Nature Escape #35",
-    description: "Enjoy an authentic nature experience in Queenstown with local guides and memorable activities.",
+    title: "Escape en la naturaleza #35",
+    description: "Disfruta una auténtica experiencia de naturaleza en Queenstown con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Queenstown, New Zealand",
+    destination: "Queenstown, Nueva Zelanda",
     price: 145,
     rating: 4.5,
         imageUrl: "/images/image-5.webp",
@@ -388,10 +388,10 @@ export const experiences: Experience[] = [
 
   {
     id: 36,
-    title: "City Discovery #36",
-    description: "Enjoy an authentic adventure experience in Marrakech with local guides and memorable activities.",
+    title: "Descubrimiento de ciudad #36",
+    description: "Disfruta una auténtica experiencia de aventura en Marrakech con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Marrakech, Morocco",
+    destination: "Marrakech, Marruecos",
     price: 148,
     rating: 4.6,
         imageUrl: "/images/image-1.webp",
@@ -399,10 +399,10 @@ export const experiences: Experience[] = [
 
   {
     id: 37,
-    title: "Cooking Workshop #37",
-    description: "Enjoy an authentic culture experience in Rome with local guides and memorable activities.",
+    title: "Taller de cocina #37",
+    description: "Disfruta una auténtica experiencia de cultura en Roma con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Rome, Italy",
+    destination: "Roma, Italia",
     price: 151,
     rating: 4.7,
         imageUrl: "/images/image-2.webp",
@@ -410,10 +410,10 @@ export const experiences: Experience[] = [
 
   {
     id: 38,
-    title: "Kayak Adventure #38",
-    description: "Enjoy an authentic food experience in Barcelona with local guides and memorable activities.",
+    title: "Aventura en kayak #38",
+    description: "Disfruta una auténtica experiencia de gastronomía en Barcelona con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Barcelona, Spain",
+    destination: "Barcelona, España",
     price: 154,
     rating: 4.8,
         imageUrl: "/images/image-3.webp",
@@ -421,10 +421,10 @@ export const experiences: Experience[] = [
 
   {
     id: 39,
-    title: "Mountain Trek #39",
-    description: "Enjoy an authentic wellness experience in Cape Town with local guides and memorable activities.",
+    title: "Trekking de montaña #39",
+    description: "Disfruta una auténtica experiencia de bienestar en Ciudad del Cabo con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Cape Town, South Africa",
+    destination: "Ciudad del Cabo, Sudáfrica",
     price: 157,
     rating: 4.9,
         imageUrl: "/images/image-4.webp",
@@ -432,10 +432,10 @@ export const experiences: Experience[] = [
 
   {
     id: 40,
-    title: "Wine Tasting #40",
-    description: "Enjoy an authentic nature experience in Banff with local guides and memorable activities.",
+    title: "Cata de vinos #40",
+    description: "Disfruta una auténtica experiencia de naturaleza en Banff con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Banff, Canada",
+    destination: "Banff, Canadá",
     price: 160,
     rating: 4.0,
         imageUrl: "/images/image-5.webp",
@@ -443,10 +443,10 @@ export const experiences: Experience[] = [
 
   {
     id: 41,
-    title: "Sunrise Hike #41",
-    description: "Enjoy an authentic adventure experience in Cusco with local guides and memorable activities.",
+    title: "Caminata al amanecer #41",
+    description: "Disfruta una auténtica experiencia de aventura en Cusco con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Cusco, Peru",
+    destination: "Cusco, Perú",
     price: 163,
     rating: 4.1,
         imageUrl: "/images/image-1.webp",
@@ -454,10 +454,10 @@ export const experiences: Experience[] = [
 
   {
     id: 42,
-    title: "Historic Walking Tour #42",
-    description: "Enjoy an authentic culture experience in Kyoto with local guides and memorable activities.",
+    title: "Tour histórico a pie #42",
+    description: "Disfruta una auténtica experiencia de cultura en Kioto con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Kyoto, Japan",
+    destination: "Kioto, Japón",
     price: 166,
     rating: 4.2,
         imageUrl: "/images/image-2.webp",
@@ -465,10 +465,10 @@ export const experiences: Experience[] = [
 
   {
     id: 43,
-    title: "Local Food Experience #43",
-    description: "Enjoy an authentic food experience in Paris with local guides and memorable activities.",
+    title: "Experiencia gastronómica local #43",
+    description: "Disfruta una auténtica experiencia de gastronomía en París con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Paris, France",
+    destination: "París, Francia",
     price: 169,
     rating: 4.3,
         imageUrl: "/images/image-3.webp",
@@ -476,10 +476,10 @@ export const experiences: Experience[] = [
 
   {
     id: 44,
-    title: "Yoga Retreat #44",
-    description: "Enjoy an authentic wellness experience in Reykjavik with local guides and memorable activities.",
+    title: "Retiro de yoga #44",
+    description: "Disfruta una auténtica experiencia de bienestar en Reikiavik con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Reykjavik, Iceland",
+    destination: "Reikiavik, Islandia",
     price: 172,
     rating: 4.4,
         imageUrl: "/images/image-4.webp",
@@ -487,10 +487,10 @@ export const experiences: Experience[] = [
 
   {
     id: 45,
-    title: "Nature Escape #45",
-    description: "Enjoy an authentic nature experience in Queenstown with local guides and memorable activities.",
+    title: "Escape en la naturaleza #45",
+    description: "Disfruta una auténtica experiencia de naturaleza en Queenstown con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Queenstown, New Zealand",
+    destination: "Queenstown, Nueva Zelanda",
     price: 175,
     rating: 4.5,
         imageUrl: "/images/image-5.webp",
@@ -498,10 +498,10 @@ export const experiences: Experience[] = [
 
   {
     id: 46,
-    title: "City Discovery #46",
-    description: "Enjoy an authentic adventure experience in Marrakech with local guides and memorable activities.",
+    title: "Descubrimiento de ciudad #46",
+    description: "Disfruta una auténtica experiencia de aventura en Marrakech con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Marrakech, Morocco",
+    destination: "Marrakech, Marruecos",
     price: 178,
     rating: 4.6,
         imageUrl: "/images/image-1.webp",
@@ -509,10 +509,10 @@ export const experiences: Experience[] = [
 
   {
     id: 47,
-    title: "Cooking Workshop #47",
-    description: "Enjoy an authentic culture experience in Rome with local guides and memorable activities.",
+    title: "Taller de cocina #47",
+    description: "Disfruta una auténtica experiencia de cultura en Roma con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Rome, Italy",
+    destination: "Roma, Italia",
     price: 181,
     rating: 4.7,
         imageUrl: "/images/image-2.webp",
@@ -520,10 +520,10 @@ export const experiences: Experience[] = [
 
   {
     id: 48,
-    title: "Kayak Adventure #48",
-    description: "Enjoy an authentic food experience in Barcelona with local guides and memorable activities.",
+    title: "Aventura en kayak #48",
+    description: "Disfruta una auténtica experiencia de gastronomía en Barcelona con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Barcelona, Spain",
+    destination: "Barcelona, España",
     price: 184,
     rating: 4.8,
         imageUrl: "/images/image-3.webp",
@@ -531,10 +531,10 @@ export const experiences: Experience[] = [
 
   {
     id: 49,
-    title: "Mountain Trek #49",
-    description: "Enjoy an authentic wellness experience in Cape Town with local guides and memorable activities.",
+    title: "Trekking de montaña #49",
+    description: "Disfruta una auténtica experiencia de bienestar en Ciudad del Cabo con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Cape Town, South Africa",
+    destination: "Ciudad del Cabo, Sudáfrica",
     price: 187,
     rating: 4.9,
         imageUrl: "/images/image-4.webp",
@@ -542,10 +542,10 @@ export const experiences: Experience[] = [
 
   {
     id: 50,
-    title: "Wine Tasting #50",
-    description: "Enjoy an authentic nature experience in Banff with local guides and memorable activities.",
+    title: "Cata de vinos #50",
+    description: "Disfruta una auténtica experiencia de naturaleza en Banff con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Banff, Canada",
+    destination: "Banff, Canadá",
     price: 190,
     rating: 4.0,
         imageUrl: "/images/image-5.webp",
@@ -553,10 +553,10 @@ export const experiences: Experience[] = [
 
   {
     id: 51,
-    title: "Sunrise Hike #51",
-    description: "Enjoy an authentic adventure experience in Cusco with local guides and memorable activities.",
+    title: "Caminata al amanecer #51",
+    description: "Disfruta una auténtica experiencia de aventura en Cusco con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Cusco, Peru",
+    destination: "Cusco, Perú",
     price: 193,
     rating: 4.1,
         imageUrl: "/images/image-1.webp",
@@ -564,10 +564,10 @@ export const experiences: Experience[] = [
 
   {
     id: 52,
-    title: "Historic Walking Tour #52",
-    description: "Enjoy an authentic culture experience in Kyoto with local guides and memorable activities.",
+    title: "Tour histórico a pie #52",
+    description: "Disfruta una auténtica experiencia de cultura en Kioto con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Kyoto, Japan",
+    destination: "Kioto, Japón",
     price: 196,
     rating: 4.2,
         imageUrl: "/images/image-2.webp",
@@ -575,10 +575,10 @@ export const experiences: Experience[] = [
 
   {
     id: 53,
-    title: "Local Food Experience #53",
-    description: "Enjoy an authentic food experience in Paris with local guides and memorable activities.",
+    title: "Experiencia gastronómica local #53",
+    description: "Disfruta una auténtica experiencia de gastronomía en París con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Paris, France",
+    destination: "París, Francia",
     price: 199,
     rating: 4.3,
         imageUrl: "/images/image-3.webp",
@@ -586,10 +586,10 @@ export const experiences: Experience[] = [
 
   {
     id: 54,
-    title: "Yoga Retreat #54",
-    description: "Enjoy an authentic wellness experience in Reykjavik with local guides and memorable activities.",
+    title: "Retiro de yoga #54",
+    description: "Disfruta una auténtica experiencia de bienestar en Reikiavik con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Reykjavik, Iceland",
+    destination: "Reikiavik, Islandia",
     price: 202,
     rating: 4.4,
         imageUrl: "/images/image-4.webp",
@@ -597,10 +597,10 @@ export const experiences: Experience[] = [
 
   {
     id: 55,
-    title: "Nature Escape #55",
-    description: "Enjoy an authentic nature experience in Queenstown with local guides and memorable activities.",
+    title: "Escape en la naturaleza #55",
+    description: "Disfruta una auténtica experiencia de naturaleza en Queenstown con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Queenstown, New Zealand",
+    destination: "Queenstown, Nueva Zelanda",
     price: 205,
     rating: 4.5,
         imageUrl: "/images/image-5.webp",
@@ -608,10 +608,10 @@ export const experiences: Experience[] = [
 
   {
     id: 56,
-    title: "City Discovery #56",
-    description: "Enjoy an authentic adventure experience in Marrakech with local guides and memorable activities.",
+    title: "Descubrimiento de ciudad #56",
+    description: "Disfruta una auténtica experiencia de aventura en Marrakech con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Marrakech, Morocco",
+    destination: "Marrakech, Marruecos",
     price: 208,
     rating: 4.6,
         imageUrl: "/images/image-1.webp",
@@ -619,10 +619,10 @@ export const experiences: Experience[] = [
 
   {
     id: 57,
-    title: "Cooking Workshop #57",
-    description: "Enjoy an authentic culture experience in Rome with local guides and memorable activities.",
+    title: "Taller de cocina #57",
+    description: "Disfruta una auténtica experiencia de cultura en Roma con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Rome, Italy",
+    destination: "Roma, Italia",
     price: 211,
     rating: 4.7,
         imageUrl: "/images/image-2.webp",
@@ -630,10 +630,10 @@ export const experiences: Experience[] = [
 
   {
     id: 58,
-    title: "Kayak Adventure #58",
-    description: "Enjoy an authentic food experience in Barcelona with local guides and memorable activities.",
+    title: "Aventura en kayak #58",
+    description: "Disfruta una auténtica experiencia de gastronomía en Barcelona con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Barcelona, Spain",
+    destination: "Barcelona, España",
     price: 214,
     rating: 4.8,
         imageUrl: "/images/image-3.webp",
@@ -641,10 +641,10 @@ export const experiences: Experience[] = [
 
   {
     id: 59,
-    title: "Mountain Trek #59",
-    description: "Enjoy an authentic wellness experience in Cape Town with local guides and memorable activities.",
+    title: "Trekking de montaña #59",
+    description: "Disfruta una auténtica experiencia de bienestar en Ciudad del Cabo con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Cape Town, South Africa",
+    destination: "Ciudad del Cabo, Sudáfrica",
     price: 217,
     rating: 4.9,
         imageUrl: "/images/image-4.webp",
@@ -652,10 +652,10 @@ export const experiences: Experience[] = [
 
   {
     id: 60,
-    title: "Wine Tasting #60",
-    description: "Enjoy an authentic nature experience in Banff with local guides and memorable activities.",
+    title: "Cata de vinos #60",
+    description: "Disfruta una auténtica experiencia de naturaleza en Banff con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Banff, Canada",
+    destination: "Banff, Canadá",
     price: 40,
     rating: 4.0,
         imageUrl: "/images/image-5.webp",
@@ -663,10 +663,10 @@ export const experiences: Experience[] = [
 
   {
     id: 61,
-    title: "Sunrise Hike #61",
-    description: "Enjoy an authentic adventure experience in Cusco with local guides and memorable activities.",
+    title: "Caminata al amanecer #61",
+    description: "Disfruta una auténtica experiencia de aventura en Cusco con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Cusco, Peru",
+    destination: "Cusco, Perú",
     price: 43,
     rating: 4.1,
         imageUrl: "/images/image-1.webp",
@@ -674,10 +674,10 @@ export const experiences: Experience[] = [
 
   {
     id: 62,
-    title: "Historic Walking Tour #62",
-    description: "Enjoy an authentic culture experience in Kyoto with local guides and memorable activities.",
+    title: "Tour histórico a pie #62",
+    description: "Disfruta una auténtica experiencia de cultura en Kioto con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Kyoto, Japan",
+    destination: "Kioto, Japón",
     price: 46,
     rating: 4.2,
         imageUrl: "/images/image-2.webp",
@@ -685,10 +685,10 @@ export const experiences: Experience[] = [
 
   {
     id: 63,
-    title: "Local Food Experience #63",
-    description: "Enjoy an authentic food experience in Paris with local guides and memorable activities.",
+    title: "Experiencia gastronómica local #63",
+    description: "Disfruta una auténtica experiencia de gastronomía en París con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Paris, France",
+    destination: "París, Francia",
     price: 49,
     rating: 4.3,
         imageUrl: "/images/image-3.webp",
@@ -696,10 +696,10 @@ export const experiences: Experience[] = [
 
   {
     id: 64,
-    title: "Yoga Retreat #64",
-    description: "Enjoy an authentic wellness experience in Reykjavik with local guides and memorable activities.",
+    title: "Retiro de yoga #64",
+    description: "Disfruta una auténtica experiencia de bienestar en Reikiavik con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Reykjavik, Iceland",
+    destination: "Reikiavik, Islandia",
     price: 52,
     rating: 4.4,
         imageUrl: "/images/image-4.webp",
@@ -707,10 +707,10 @@ export const experiences: Experience[] = [
 
   {
     id: 65,
-    title: "Nature Escape #65",
-    description: "Enjoy an authentic nature experience in Queenstown with local guides and memorable activities.",
+    title: "Escape en la naturaleza #65",
+    description: "Disfruta una auténtica experiencia de naturaleza en Queenstown con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Queenstown, New Zealand",
+    destination: "Queenstown, Nueva Zelanda",
     price: 55,
     rating: 4.5,
         imageUrl: "/images/image-5.webp",
@@ -718,10 +718,10 @@ export const experiences: Experience[] = [
 
   {
     id: 66,
-    title: "City Discovery #66",
-    description: "Enjoy an authentic adventure experience in Marrakech with local guides and memorable activities.",
+    title: "Descubrimiento de ciudad #66",
+    description: "Disfruta una auténtica experiencia de aventura en Marrakech con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Marrakech, Morocco",
+    destination: "Marrakech, Marruecos",
     price: 58,
     rating: 4.6,
         imageUrl: "/images/image-1.webp",
@@ -729,10 +729,10 @@ export const experiences: Experience[] = [
 
   {
     id: 67,
-    title: "Cooking Workshop #67",
-    description: "Enjoy an authentic culture experience in Rome with local guides and memorable activities.",
+    title: "Taller de cocina #67",
+    description: "Disfruta una auténtica experiencia de cultura en Roma con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Rome, Italy",
+    destination: "Roma, Italia",
     price: 61,
     rating: 4.7,
         imageUrl: "/images/image-2.webp",
@@ -740,10 +740,10 @@ export const experiences: Experience[] = [
 
   {
     id: 68,
-    title: "Kayak Adventure #68",
-    description: "Enjoy an authentic food experience in Barcelona with local guides and memorable activities.",
+    title: "Aventura en kayak #68",
+    description: "Disfruta una auténtica experiencia de gastronomía en Barcelona con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Barcelona, Spain",
+    destination: "Barcelona, España",
     price: 64,
     rating: 4.8,
         imageUrl: "/images/image-3.webp",
@@ -751,10 +751,10 @@ export const experiences: Experience[] = [
 
   {
     id: 69,
-    title: "Mountain Trek #69",
-    description: "Enjoy an authentic wellness experience in Cape Town with local guides and memorable activities.",
+    title: "Trekking de montaña #69",
+    description: "Disfruta una auténtica experiencia de bienestar en Ciudad del Cabo con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Cape Town, South Africa",
+    destination: "Ciudad del Cabo, Sudáfrica",
     price: 67,
     rating: 4.9,
         imageUrl: "/images/image-4.webp",
@@ -762,10 +762,10 @@ export const experiences: Experience[] = [
 
   {
     id: 70,
-    title: "Wine Tasting #70",
-    description: "Enjoy an authentic nature experience in Banff with local guides and memorable activities.",
+    title: "Cata de vinos #70",
+    description: "Disfruta una auténtica experiencia de naturaleza en Banff con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Banff, Canada",
+    destination: "Banff, Canadá",
     price: 70,
     rating: 4.0,
         imageUrl: "/images/image-5.webp",
@@ -773,10 +773,10 @@ export const experiences: Experience[] = [
 
   {
     id: 71,
-    title: "Sunrise Hike #71",
-    description: "Enjoy an authentic adventure experience in Cusco with local guides and memorable activities.",
+    title: "Caminata al amanecer #71",
+    description: "Disfruta una auténtica experiencia de aventura en Cusco con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Cusco, Peru",
+    destination: "Cusco, Perú",
     price: 73,
     rating: 4.1,
         imageUrl: "/images/image-1.webp",
@@ -784,10 +784,10 @@ export const experiences: Experience[] = [
 
   {
     id: 72,
-    title: "Historic Walking Tour #72",
-    description: "Enjoy an authentic culture experience in Kyoto with local guides and memorable activities.",
+    title: "Tour histórico a pie #72",
+    description: "Disfruta una auténtica experiencia de cultura en Kioto con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Kyoto, Japan",
+    destination: "Kioto, Japón",
     price: 76,
     rating: 4.2,
         imageUrl: "/images/image-2.webp",
@@ -795,10 +795,10 @@ export const experiences: Experience[] = [
 
   {
     id: 73,
-    title: "Local Food Experience #73",
-    description: "Enjoy an authentic food experience in Paris with local guides and memorable activities.",
+    title: "Experiencia gastronómica local #73",
+    description: "Disfruta una auténtica experiencia de gastronomía en París con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Paris, France",
+    destination: "París, Francia",
     price: 79,
     rating: 4.3,
         imageUrl: "/images/image-3.webp",
@@ -806,10 +806,10 @@ export const experiences: Experience[] = [
 
   {
     id: 74,
-    title: "Yoga Retreat #74",
-    description: "Enjoy an authentic wellness experience in Reykjavik with local guides and memorable activities.",
+    title: "Retiro de yoga #74",
+    description: "Disfruta una auténtica experiencia de bienestar en Reikiavik con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Reykjavik, Iceland",
+    destination: "Reikiavik, Islandia",
     price: 82,
     rating: 4.4,
         imageUrl: "/images/image-4.webp",
@@ -817,10 +817,10 @@ export const experiences: Experience[] = [
 
   {
     id: 75,
-    title: "Nature Escape #75",
-    description: "Enjoy an authentic nature experience in Queenstown with local guides and memorable activities.",
+    title: "Escape en la naturaleza #75",
+    description: "Disfruta una auténtica experiencia de naturaleza en Queenstown con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Queenstown, New Zealand",
+    destination: "Queenstown, Nueva Zelanda",
     price: 85,
     rating: 4.5,
         imageUrl: "/images/image-5.webp",
@@ -828,10 +828,10 @@ export const experiences: Experience[] = [
 
   {
     id: 76,
-    title: "City Discovery #76",
-    description: "Enjoy an authentic adventure experience in Marrakech with local guides and memorable activities.",
+    title: "Descubrimiento de ciudad #76",
+    description: "Disfruta una auténtica experiencia de aventura en Marrakech con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Marrakech, Morocco",
+    destination: "Marrakech, Marruecos",
     price: 88,
     rating: 4.6,
         imageUrl: "/images/image-1.webp",
@@ -839,10 +839,10 @@ export const experiences: Experience[] = [
 
   {
     id: 77,
-    title: "Cooking Workshop #77",
-    description: "Enjoy an authentic culture experience in Rome with local guides and memorable activities.",
+    title: "Taller de cocina #77",
+    description: "Disfruta una auténtica experiencia de cultura en Roma con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Rome, Italy",
+    destination: "Roma, Italia",
     price: 91,
     rating: 4.7,
         imageUrl: "/images/image-2.webp",
@@ -850,10 +850,10 @@ export const experiences: Experience[] = [
 
   {
     id: 78,
-    title: "Kayak Adventure #78",
-    description: "Enjoy an authentic food experience in Barcelona with local guides and memorable activities.",
+    title: "Aventura en kayak #78",
+    description: "Disfruta una auténtica experiencia de gastronomía en Barcelona con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Barcelona, Spain",
+    destination: "Barcelona, España",
     price: 94,
     rating: 4.8,
         imageUrl: "/images/image-3.webp",
@@ -861,10 +861,10 @@ export const experiences: Experience[] = [
 
   {
     id: 79,
-    title: "Mountain Trek #79",
-    description: "Enjoy an authentic wellness experience in Cape Town with local guides and memorable activities.",
+    title: "Trekking de montaña #79",
+    description: "Disfruta una auténtica experiencia de bienestar en Ciudad del Cabo con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Cape Town, South Africa",
+    destination: "Ciudad del Cabo, Sudáfrica",
     price: 97,
     rating: 4.9,
         imageUrl: "/images/image-4.webp",
@@ -872,10 +872,10 @@ export const experiences: Experience[] = [
 
   {
     id: 80,
-    title: "Wine Tasting #80",
-    description: "Enjoy an authentic nature experience in Banff with local guides and memorable activities.",
+    title: "Cata de vinos #80",
+    description: "Disfruta una auténtica experiencia de naturaleza en Banff con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Banff, Canada",
+    destination: "Banff, Canadá",
     price: 100,
     rating: 4.0,
         imageUrl: "/images/image-5.webp",
@@ -883,10 +883,10 @@ export const experiences: Experience[] = [
 
   {
     id: 81,
-    title: "Sunrise Hike #81",
-    description: "Enjoy an authentic adventure experience in Cusco with local guides and memorable activities.",
+    title: "Caminata al amanecer #81",
+    description: "Disfruta una auténtica experiencia de aventura en Cusco con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Cusco, Peru",
+    destination: "Cusco, Perú",
     price: 103,
     rating: 4.1,
         imageUrl: "/images/image-1.webp",
@@ -894,10 +894,10 @@ export const experiences: Experience[] = [
 
   {
     id: 82,
-    title: "Historic Walking Tour #82",
-    description: "Enjoy an authentic culture experience in Kyoto with local guides and memorable activities.",
+    title: "Tour histórico a pie #82",
+    description: "Disfruta una auténtica experiencia de cultura en Kioto con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Kyoto, Japan",
+    destination: "Kioto, Japón",
     price: 106,
     rating: 4.2,
         imageUrl: "/images/image-2.webp",
@@ -905,10 +905,10 @@ export const experiences: Experience[] = [
 
   {
     id: 83,
-    title: "Local Food Experience #83",
-    description: "Enjoy an authentic food experience in Paris with local guides and memorable activities.",
+    title: "Experiencia gastronómica local #83",
+    description: "Disfruta una auténtica experiencia de gastronomía en París con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Paris, France",
+    destination: "París, Francia",
     price: 109,
     rating: 4.3,
         imageUrl: "/images/image-3.webp",
@@ -916,10 +916,10 @@ export const experiences: Experience[] = [
 
   {
     id: 84,
-    title: "Yoga Retreat #84",
-    description: "Enjoy an authentic wellness experience in Reykjavik with local guides and memorable activities.",
+    title: "Retiro de yoga #84",
+    description: "Disfruta una auténtica experiencia de bienestar en Reikiavik con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Reykjavik, Iceland",
+    destination: "Reikiavik, Islandia",
     price: 112,
     rating: 4.4,
         imageUrl: "/images/image-4.webp",
@@ -927,10 +927,10 @@ export const experiences: Experience[] = [
 
   {
     id: 85,
-    title: "Nature Escape #85",
-    description: "Enjoy an authentic nature experience in Queenstown with local guides and memorable activities.",
+    title: "Escape en la naturaleza #85",
+    description: "Disfruta una auténtica experiencia de naturaleza en Queenstown con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Queenstown, New Zealand",
+    destination: "Queenstown, Nueva Zelanda",
     price: 115,
     rating: 4.5,
         imageUrl: "/images/image-5.webp",
@@ -938,10 +938,10 @@ export const experiences: Experience[] = [
 
   {
     id: 86,
-    title: "City Discovery #86",
-    description: "Enjoy an authentic adventure experience in Marrakech with local guides and memorable activities.",
+    title: "Descubrimiento de ciudad #86",
+    description: "Disfruta una auténtica experiencia de aventura en Marrakech con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Marrakech, Morocco",
+    destination: "Marrakech, Marruecos",
     price: 118,
     rating: 4.6,
         imageUrl: "/images/image-1.webp",
@@ -949,10 +949,10 @@ export const experiences: Experience[] = [
 
   {
     id: 87,
-    title: "Cooking Workshop #87",
-    description: "Enjoy an authentic culture experience in Rome with local guides and memorable activities.",
+    title: "Taller de cocina #87",
+    description: "Disfruta una auténtica experiencia de cultura en Roma con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Rome, Italy",
+    destination: "Roma, Italia",
     price: 121,
     rating: 4.7,
         imageUrl: "/images/image-2.webp",
@@ -960,10 +960,10 @@ export const experiences: Experience[] = [
 
   {
     id: 88,
-    title: "Kayak Adventure #88",
-    description: "Enjoy an authentic food experience in Barcelona with local guides and memorable activities.",
+    title: "Aventura en kayak #88",
+    description: "Disfruta una auténtica experiencia de gastronomía en Barcelona con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Barcelona, Spain",
+    destination: "Barcelona, España",
     price: 124,
     rating: 4.8,
         imageUrl: "/images/image-3.webp",
@@ -971,10 +971,10 @@ export const experiences: Experience[] = [
 
   {
     id: 89,
-    title: "Mountain Trek #89",
-    description: "Enjoy an authentic wellness experience in Cape Town with local guides and memorable activities.",
+    title: "Trekking de montaña #89",
+    description: "Disfruta una auténtica experiencia de bienestar en Ciudad del Cabo con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Cape Town, South Africa",
+    destination: "Ciudad del Cabo, Sudáfrica",
     price: 127,
     rating: 4.9,
         imageUrl: "/images/image-4.webp",
@@ -982,10 +982,10 @@ export const experiences: Experience[] = [
 
   {
     id: 90,
-    title: "Wine Tasting #90",
-    description: "Enjoy an authentic nature experience in Banff with local guides and memorable activities.",
+    title: "Cata de vinos #90",
+    description: "Disfruta una auténtica experiencia de naturaleza en Banff con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Banff, Canada",
+    destination: "Banff, Canadá",
     price: 130,
     rating: 4.0,
         imageUrl: "/images/image-5.webp",
@@ -993,10 +993,10 @@ export const experiences: Experience[] = [
 
   {
     id: 91,
-    title: "Sunrise Hike #91",
-    description: "Enjoy an authentic adventure experience in Cusco with local guides and memorable activities.",
+    title: "Caminata al amanecer #91",
+    description: "Disfruta una auténtica experiencia de aventura en Cusco con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Cusco, Peru",
+    destination: "Cusco, Perú",
     price: 133,
     rating: 4.1,
         imageUrl: "/images/image-1.webp",
@@ -1004,10 +1004,10 @@ export const experiences: Experience[] = [
 
   {
     id: 92,
-    title: "Historic Walking Tour #92",
-    description: "Enjoy an authentic culture experience in Kyoto with local guides and memorable activities.",
+    title: "Tour histórico a pie #92",
+    description: "Disfruta una auténtica experiencia de cultura en Kioto con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Kyoto, Japan",
+    destination: "Kioto, Japón",
     price: 136,
     rating: 4.2,
         imageUrl: "/images/image-2.webp",
@@ -1015,10 +1015,10 @@ export const experiences: Experience[] = [
 
   {
     id: 93,
-    title: "Local Food Experience #93",
-    description: "Enjoy an authentic food experience in Paris with local guides and memorable activities.",
+    title: "Experiencia gastronómica local #93",
+    description: "Disfruta una auténtica experiencia de gastronomía en París con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Paris, France",
+    destination: "París, Francia",
     price: 139,
     rating: 4.3,
         imageUrl: "/images/image-3.webp",
@@ -1026,10 +1026,10 @@ export const experiences: Experience[] = [
 
   {
     id: 94,
-    title: "Yoga Retreat #94",
-    description: "Enjoy an authentic wellness experience in Reykjavik with local guides and memorable activities.",
+    title: "Retiro de yoga #94",
+    description: "Disfruta una auténtica experiencia de bienestar en Reikiavik con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Reykjavik, Iceland",
+    destination: "Reikiavik, Islandia",
     price: 142,
     rating: 4.4,
         imageUrl: "/images/image-4.webp",
@@ -1037,10 +1037,10 @@ export const experiences: Experience[] = [
 
   {
     id: 95,
-    title: "Nature Escape #95",
-    description: "Enjoy an authentic nature experience in Queenstown with local guides and memorable activities.",
+    title: "Escape en la naturaleza #95",
+    description: "Disfruta una auténtica experiencia de naturaleza en Queenstown con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Queenstown, New Zealand",
+    destination: "Queenstown, Nueva Zelanda",
     price: 145,
     rating: 4.5,
         imageUrl: "/images/image-5.webp",
@@ -1048,10 +1048,10 @@ export const experiences: Experience[] = [
 
   {
     id: 96,
-    title: "City Discovery #96",
-    description: "Enjoy an authentic adventure experience in Marrakech with local guides and memorable activities.",
+    title: "Descubrimiento de ciudad #96",
+    description: "Disfruta una auténtica experiencia de aventura en Marrakech con guías locales y actividades memorables.",
     category: "Adventure",
-    destination: "Marrakech, Morocco",
+    destination: "Marrakech, Marruecos",
     price: 148,
     rating: 4.6,
         imageUrl: "/images/image-1.webp",
@@ -1059,10 +1059,10 @@ export const experiences: Experience[] = [
 
   {
     id: 97,
-    title: "Cooking Workshop #97",
-    description: "Enjoy an authentic culture experience in Rome with local guides and memorable activities.",
+    title: "Taller de cocina #97",
+    description: "Disfruta una auténtica experiencia de cultura en Roma con guías locales y actividades memorables.",
     category: "Culture",
-    destination: "Rome, Italy",
+    destination: "Roma, Italia",
     price: 151,
     rating: 4.7,
         imageUrl: "/images/image-2.webp",
@@ -1070,10 +1070,10 @@ export const experiences: Experience[] = [
 
   {
     id: 98,
-    title: "Kayak Adventure #98",
-    description: "Enjoy an authentic food experience in Barcelona with local guides and memorable activities.",
+    title: "Aventura en kayak #98",
+    description: "Disfruta una auténtica experiencia de gastronomía en Barcelona con guías locales y actividades memorables.",
     category: "Food",
-    destination: "Barcelona, Spain",
+    destination: "Barcelona, España",
     price: 154,
     rating: 4.8,
         imageUrl: "/images/image-3.webp",
@@ -1081,10 +1081,10 @@ export const experiences: Experience[] = [
 
   {
     id: 99,
-    title: "Mountain Trek #99",
-    description: "Enjoy an authentic wellness experience in Cape Town with local guides and memorable activities.",
+    title: "Trekking de montaña #99",
+    description: "Disfruta una auténtica experiencia de bienestar en Ciudad del Cabo con guías locales y actividades memorables.",
     category: "Wellness",
-    destination: "Cape Town, South Africa",
+    destination: "Ciudad del Cabo, Sudáfrica",
     price: 157,
     rating: 4.9,
         imageUrl: "/images/image-4.webp",
@@ -1092,10 +1092,10 @@ export const experiences: Experience[] = [
 
   {
     id: 100,
-    title: "Wine Tasting #100",
-    description: "Enjoy an authentic nature experience in Banff with local guides and memorable activities.",
+    title: "Cata de vinos #100",
+    description: "Disfruta una auténtica experiencia de naturaleza en Banff con guías locales y actividades memorables.",
     category: "Nature",
-    destination: "Banff, Canada",
+    destination: "Banff, Canadá",
     price: 160,
     rating: 4.0,
         imageUrl: "/images/image-5.webp",

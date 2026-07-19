@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Wanderlust Explorer",
-  description: "Discover extraordinary travel experiences around the world.",
+  title: "Explorador de Viajes",
+  description: "Descubre experiencias de viaje extraordinarias alrededor del mundo.",
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} h-full antialiased`}>
+    <html lang="es" className={`${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
         <FavoritesProvider>{children}</FavoritesProvider>
       </body>

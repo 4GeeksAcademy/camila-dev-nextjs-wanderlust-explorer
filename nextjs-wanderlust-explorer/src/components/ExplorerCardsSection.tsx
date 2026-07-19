@@ -12,7 +12,7 @@ export default function ExplorerCardsSection({ experiences }: { experiences: Exp
       experiences={experiences}
       favoriteIds={favoriteIds}
       onToggleFavorite={toggleFavorite}
-      emptyMessage="No experiences match your current search and filters."
+      emptyMessage="No se encontraron resultados"
     />
   );
 }

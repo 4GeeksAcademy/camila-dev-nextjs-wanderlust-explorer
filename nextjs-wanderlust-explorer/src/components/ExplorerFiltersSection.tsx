@@ -5,6 +5,7 @@ import FilterBar from "@/components/FilterBar";
 import SearchBar from "@/components/SearchBar";
 import ExplorerCardsSection from "@/components/ExplorerCardsSection";
 import useExperienceFilters from "@/hooks/useExperienceFilters";
+import { getCategoryLabel } from "@/utils/categoryLabels";
 
 export default function ExplorerFiltersSection({ experiences }: { experiences: Experience[] }) {
   const {
@@ -25,9 +26,9 @@ export default function ExplorerFiltersSection({ experiences }: { experiences: E
     <>
       <div className="mt-8 flex items-end justify-between gap-3">
         <div>
-          <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">Explorer</h2>
+          <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">Explorador</h2>
           <p className="mt-1 text-sm text-[#596175]">
-            Showing {filteredExperiences.length} of {experiences.length} experiences
+            Mostrando {filteredExperiences.length} de {experiences.length} experiencias
           </p>
         </div>
       </div>
@@ -50,13 +51,15 @@ export default function ExplorerFiltersSection({ experiences }: { experiences: E
       {hasActiveFilters && (
         <div className="mt-3 flex flex-wrap gap-2 text-xs">
           {query.trim().length > 0 && (
-            <span className="rounded-full bg-[#d7e5ff] px-3 py-1 font-medium text-[#0b57db]">Search: {query}</span>
+            <span className="rounded-full bg-[#d7e5ff] px-3 py-1 font-medium text-[#0b57db]">Búsqueda: {query}</span>
           )}
           {category.length > 0 && (
-            <span className="rounded-full bg-[#d7e5ff] px-3 py-1 font-medium text-[#0b57db]">Category: {category}</span>
+            <span className="rounded-full bg-[#d7e5ff] px-3 py-1 font-medium text-[#0b57db]">
+              Categoría: {getCategoryLabel(category)}
+            </span>
           )}
           {destination.length > 0 && (
-            <span className="rounded-full bg-[#d7e5ff] px-3 py-1 font-medium text-[#0b57db]">Destination: {destination}</span>
+            <span className="rounded-full bg-[#d7e5ff] px-3 py-1 font-medium text-[#0b57db]">Destino: {destination}</span>
           )}
         </div>
       )}
