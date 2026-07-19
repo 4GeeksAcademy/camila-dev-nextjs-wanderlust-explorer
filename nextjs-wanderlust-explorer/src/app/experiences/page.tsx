@@ -5,6 +5,14 @@ import SiteNavbar from "@/components/site-navbar";
 import { experiences } from "@/data/experiences";
 import experiencePreview from "../../../images/experience.png";
 
+const cardImages = [
+  "/images/image-1.webp",
+  "/images/image-2.webp",
+  "/images/image-3.webp",
+  "/images/image-4.webp",
+  "/images/image-5.webp",
+];
+
 type SearchParams = {
   q?: string;
   category?: string;
@@ -127,14 +135,14 @@ export default function ExperiencesPage({
         )}
 
         <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
-          {filteredExperiences.map((experience) => (
+          {filteredExperiences.map((experience, index) => (
             <article
               key={experience.id}
               className="group overflow-hidden rounded-2xl border border-[#d9e3f6] bg-white p-2.5 shadow-[0_4px_20px_rgba(0,0,0,0.05)] transition-all duration-300 ease-out transform-gpu hover:-translate-y-1 hover:shadow-[0_12px_28px_rgba(0,0,0,0.12)]"
             >
               <div className="relative h-44 overflow-hidden rounded-xl">
                 <Image
-                  src={experiencePreview}
+                  src={cardImages[index % cardImages.length]}
                   alt={experience.title}
                   fill
                   className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
