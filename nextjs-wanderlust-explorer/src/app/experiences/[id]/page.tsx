@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import MobileBottomNav from "@/components/mobile-bottom-nav";
-import SiteFooter from "@/components/site-footer";
-import SiteNavbar from "@/components/site-navbar";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 import { experiences } from "@/data/experiences";
 
 type ExperienceDetailPageProps = {
@@ -23,7 +23,7 @@ export default async function ExperienceDetailPage({ params }: ExperienceDetailP
 
   return (
     <main className="min-h-screen bg-[#e8ebf1] text-[#121c2a]">
-      <SiteNavbar />
+      <Navbar />
 
       <section className="mx-auto w-full max-w-7xl px-4 pb-24 pt-6 sm:px-6 md:px-8 md:pb-14 lg:px-10">
         <h1 className="mb-3 text-2xl font-bold tracking-tight text-[#121c2a] sm:text-3xl">Detalle</h1>
@@ -92,7 +92,7 @@ export default async function ExperienceDetailPage({ params }: ExperienceDetailP
           </div>
         </article>
 
-        <SiteFooter />
+        <Footer />
       </section>
 
       <MobileBottomNav />

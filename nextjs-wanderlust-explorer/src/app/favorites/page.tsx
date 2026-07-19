@@ -1,13 +1,13 @@
 import MobileBottomNav from "@/components/mobile-bottom-nav";
-import FavoritesCardsSection from "@/components/favorites-cards-section";
-import SiteFooter from "@/components/site-footer";
-import SiteNavbar from "@/components/site-navbar";
+import FavoritesCardsSection from "@/components/FavoritesCardsSection";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 import { experiences } from "@/data/experiences";
 
 export default function FavoritesPage() {
   return (
     <main className="min-h-screen bg-[#e8ebf1] text-[#121c2a]">
-      <SiteNavbar />
+      <Navbar />
 
       <section className="mx-auto w-full max-w-7xl px-4 pb-24 pt-6 sm:px-6 md:px-8 md:pb-14 lg:px-10">
         <div className="rounded-2xl border border-[#d9e3f6] bg-white p-5 shadow-[0_4px_20px_rgba(0,0,0,0.05)] sm:p-6 md:p-8">
@@ -20,7 +20,7 @@ export default function FavoritesPage() {
 
         <FavoritesCardsSection experiences={experiences} />
 
-        <SiteFooter />
+        <Footer />
       </section>
 
       <MobileBottomNav />

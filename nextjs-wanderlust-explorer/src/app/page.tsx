@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import MobileBottomNav from "@/components/mobile-bottom-nav";
-import SiteFooter from "@/components/site-footer";
-import SiteNavbar from "@/components/site-navbar";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 const categories = [
   { name: "Adventure", image: "/images/cat-adventure.jpg" },
@@ -47,7 +47,7 @@ const experiences = [
 export default function Home() {
   return (
     <main className="bg-[#e8ebf1] text-[#121c2a]">
-      <SiteNavbar />
+      <Navbar />
 
       <section className="relative h-[78vh] min-h-[540px] w-full overflow-hidden md:min-h-[620px] lg:min-h-[680px]">
         <Image
@@ -171,7 +171,7 @@ export default function Home() {
           </div>
         </section>
 
-        <SiteFooter />
+        <Footer />
       </div>
 
       <MobileBottomNav />

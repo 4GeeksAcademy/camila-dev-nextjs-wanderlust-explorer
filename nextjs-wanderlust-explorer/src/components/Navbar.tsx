@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import logo from "../../images/logo.png";
 
-export default function SiteNavbar() {
+export default function Navbar() {
   const pathname = usePathname();
   const isHome = pathname === "/";
   const isExperiences = pathname.startsWith("/experiences");

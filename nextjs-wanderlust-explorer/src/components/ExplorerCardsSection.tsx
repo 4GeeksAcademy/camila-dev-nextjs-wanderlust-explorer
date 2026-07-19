@@ -1,8 +1,8 @@
 "use client";
 
 import type { Experience } from "@/types/Experience";
-import ExperienceGrid from "@/components/experience-grid";
-import { useFavorites } from "@/components/favorites-provider";
+import ExperienceGrid from "@/components/ExperienceGrid";
+import { useFavorites } from "@/components/FavoritesProvider";
 
 export default function ExplorerCardsSection({ experiences }: { experiences: Experience[] }) {
   const { favoriteIds, toggleFavorite } = useFavorites();

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { FavoritesProvider } from "@/components/favorites-provider";
+import { FavoritesProvider } from "@/components/FavoritesProvider";
 import "./globals.css";
 
 const inter = Inter({
