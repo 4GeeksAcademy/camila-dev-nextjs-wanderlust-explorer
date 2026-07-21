@@ -3,6 +3,7 @@
 import Image from "next/image";
 import MobileBottomNav from "@/components/MobileBottomNav";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { useFavorites } from "@/components/FavoritesProvider";
 
 export default function ProfilePage() {
@@ -196,31 +197,14 @@ export default function ProfilePage() {
                   Cerrar sesión
                 </button>
               </div>
-
-              <div className="mt-6 flex items-center justify-between border-t border-[#e8edf7] pt-4 text-[11px] text-[#7a869a]">
-                <div>
-                  <p className="font-semibold text-[#0b57db]">Voyage</p>
-                  <p className="mt-1">© 2026 Voyage Viajes. Todos los derechos reservados.</p>
-                </div>
-
-                <ul className="flex items-center gap-5">
-                  <li>Nosotros</li>
-                  <li>Destinos</li>
-                  <li>Soporte</li>
-                  <li>Privacidad</li>
-                </ul>
-
-                <div className="flex items-center gap-2 text-base text-[#5f6f89]">
-                  <span aria-label="Global">◌</span>
-                  <span aria-label="Video">◍</span>
-                  <span aria-label="Compartir">⤴</span>
-                </div>
-              </div>
             </section>
           </div>
         </div>
+        <Footer />
       </section>
 
+          
+          
       <MobileBottomNav />
     </main>
   );

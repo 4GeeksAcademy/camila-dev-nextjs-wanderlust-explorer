@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-40">
-      <div className="w-full border-t-2 border-[#6f72ff] bg-white/95 px-4 py-2 shadow-[0_6px_18px_rgba(15,23,42,0.12)] backdrop-blur-md sm:px-6 md:px-8 lg:px-10">
+      <div className="w-full  bg-white/95 px-4 py-2 shadow-[0_6px_18px_rgba(15,23,42,0.12)] backdrop-blur-md sm:px-6 md:px-8 lg:px-10">
         <div className="flex items-center justify-between gap-3">
           <div className="inline-flex items-center gap-2">
             <Image src={logo} alt="Logotipo de Voyage" width={20} height={20} className="rounded-full" />
